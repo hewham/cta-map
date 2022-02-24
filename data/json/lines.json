@@ -1,0 +1,47 @@
+[
+  { 
+    "name": "RED",
+    "route": "Red",
+    "color": "#ff0000"
+  },
+  { 
+    "name": "BLUE",
+    "route": "Blue",
+    "color": "#2255ff"
+  },
+  { 
+    "name": "G",
+    "route": "G",
+    "color": "#009900"
+  },
+  { 
+    "name": "BRN",
+    "route": "Brn",
+    "color": "#997700"
+  },
+  { 
+    "name": "P",
+    "route": "P",
+    "color": "#5500ff"
+  },
+  { 
+    "name": "Pexp",
+    "route": "P",
+    "color": "#5500ff"
+  },
+  { 
+    "name": "Y",
+    "route": "Y",
+    "color": "#ffff00"
+  },
+  { 
+    "name": "Pnk",
+    "route": "Pink",
+    "color": "#ff77dd"
+  },
+  { 
+    "name": "O",
+    "route": "Org",
+    "color": "#ff7700"
+  }
+]

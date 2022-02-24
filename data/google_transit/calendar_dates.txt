@@ -1,0 +1,5 @@
+service_id,date,exception_type
+GLS-301,20220219,1
+GLS-302,20220220,1
+GLS-301,20220226,1
+GLS-302,20220227,1

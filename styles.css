@@ -1,0 +1,23 @@
+
+#app {
+  font-family: sans-serif;
+}
+
+.map {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 50%;
+}
+
+#mainmap { 
+  left: 0;
+}
+
+#loopmap { 
+  right: 0;
+}
+
+.monospace {
+  font-family: monospace !important;
+}

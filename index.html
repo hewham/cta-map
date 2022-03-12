@@ -19,8 +19,32 @@
       
     </div>
 
-    <div id="mainmap" class="map"></div>
-    <div id="loopmap" class="map"></div>
+    <div class="map-container">
+      <div id="mainmap" class="map"></div>
+      <div id="loopmap" class="map"></div>
+    </div>
+
+    <div id="stations"></div>
+
+    <script id="stations-template" type="text/x-handlebars-template">
+      <h1>🚉 Stations</h1>
+      {{#each stations}}
+        <div class="item monospace">
+          {{ number }})
+          <!-- <span style="color: {{line.color}}; opacity: 0.5">{{ line.route }}</span> -->
+          {{#if on}}
+              <span class="circle on" style="color: {{line.color}}">&bull;</span>
+            {{ else }}
+              <span class="circle off" style="color: {{line.color}}">&bull;</span>
+            {{/if}}
+          {{#if station}}
+            <span class="item-name"> {{ station.stop_name }} </span>
+          {{ else }}
+            <b>NO STATION</b>
+          {{/if}}
+        </div>
+      {{/each}}
+    </script>
 
     <script src="index.js"></script>
 

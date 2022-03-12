@@ -2,46 +2,55 @@
   { 
     "name": "RED",
     "route": "Red",
+    "train": "red",
     "color": "#ff0000"
   },
   { 
     "name": "BLUE",
     "route": "Blue",
+    "train": "blue",
     "color": "#2255ff"
   },
   { 
     "name": "G",
     "route": "G",
+    "train": "g",
     "color": "#009900"
   },
   { 
     "name": "BRN",
     "route": "Brn",
+    "train": "brn",
     "color": "#997700"
   },
   { 
     "name": "P",
     "route": "P",
+    "train": "p",
     "color": "#5500ff"
   },
   { 
     "name": "Pexp",
     "route": "P",
+    "train": "p",
     "color": "#5500ff"
   },
   { 
     "name": "Y",
     "route": "Y",
+    "train": "y",
     "color": "#ffff00"
   },
   { 
     "name": "Pnk",
     "route": "Pink",
+    "train": "pink",
     "color": "#ff77dd"
   },
   { 
     "name": "O",
     "route": "Org",
+    "train": "org",
     "color": "#ff7700"
   }
 ]

@@ -10,6 +10,27 @@
   width: 50%;
 }
 
+.map-container {
+  position: relative;
+  width: 100vw;
+  height: 90vh;
+}
+
+.circle {
+  font-size: 3.4em;
+  line-height: 12px;
+  /* transform: translateY(-200px); */
+  vertical-align: middle;  
+}
+
+.off {
+  opacity: 0.1;
+}
+
+#stations {
+  padding: 0 20px;
+}
+
 #mainmap { 
   left: 0;
 }

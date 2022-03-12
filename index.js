@@ -12,7 +12,11 @@ const version = require("./package.json").version;
 const stations = require("./data/json/stations.json");
 const stops = require("./data/json/Lstops.json");
 const lines = require("./data/json/lines.json");
+
 let trains = [];
+let stopToStationMap = {};
+let allStations = [];
+
 
 const STATION_OPACITY = "33";
 const STATION_RADIUS = "2"
@@ -26,16 +30,27 @@ const TRANSIT_TILE = "https://1.base.maps.ls.hereapi.com/maptile/2.1/maptile/new
 // Supported values for rt are: "Red", "Blue", "Brn", "G", "Org", "P", "Pink", "Y".
 const URL = "http://lapi.transitchicago.com/api/1.0/ttpositions.aspx?key=298af116f70948a7a9c5561c7050202c&outputType=JSON&rt=Red,Blue,Brn,G,Org,P,Pink,Y"
 
-const prefix = "http://0.0.0.0:8080/"
-// const Handlebars = require("handlebars");
-// var itemsTemplate = Handlebars.compile(document.getElementById("items-template").innerHTML);
-// document.getElementById("loading").innerHTML = loadingTemplate({isLoading});
+// const prefix = "http://0.0.0.0:8080/"
+const prefix = "https://cors-anywhere.herokuapp.com/"
+const suffix = ""
 
-var map = L.map('mainmap').setView([41.8871, -87.7098], 11);
-var loopmap = L.map('loopmap').setView([41.8810, -87.6298], 16);
-// L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-//   attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-// }).addTo(map);
+const Handlebars = require("handlebars");
+var stationsTemplate = Handlebars.compile(document.getElementById("stations-template").innerHTML);
+
+const mapOptions = {
+  zoomControl: false, 
+  doubleClickZoom: false, 
+  closePopupOnClick: false, 
+  dragging: false, 
+  zoomSnap: false, 
+  zoomDelta: false, 
+  trackResize: false,
+  touchZoom: false,
+  scrollWheelZoom: false
+}
+
+var map = L.map('mainmap', mapOptions ).setView([41.8871, -87.7098], 11);
+var loopmap = L.map('loopmap', mapOptions).setView([41.8810, -87.6298], 15);
 
 L.tileLayer(MAP_TILE).addTo(map)
 L.tileLayer(MAP_TILE).addTo(loopmap);
@@ -45,14 +60,138 @@ L.tileLayer(MAP_TILE).addTo(loopmap);
 
 // L.tileLayer('http://tile.thunderforest.com/transport/{z}/{x}/{y}.png').addTo(loopmap);
 
-
 main();
 
 function main() {
   drawStops();
 
+  findStops();
   // startPoll();
-  httpGet(prefix + URL);
+  httpGet(prefix + URL + suffix);
+}
+
+function findStops() {
+  let dict = {};
+  let counts = {};
+  for(let line of lines) {
+    dict[line.name] = {};
+    counts[line.name] = 0;
+  }
+
+  for (let stop of stops) {
+    let colors = getStopColors(stop);
+    for(let color of colors) {
+      if(stop.MAP_ID in dict[color]) {
+        dict[color][stop.MAP_ID].stopIDs.push(stop.STOP_ID)
+        dict[color][stop.MAP_ID].stops.push(getStop(stop.STOP_ID))
+      } else {
+        dict[color][stop.MAP_ID] = {
+          station: getStation(stop.MAP_ID),
+          line: getLine(color),
+          color,
+          stopIDs: [stop.STOP_ID],
+          stops: [getStop(stop.STOP_ID)]
+        }
+      }
+    }
+  }
+
+  let all = [];
+  let j = 0;
+  for(let color of Object.keys(dict)) {
+    for (let mapID of Object.keys(dict[color])) {
+      all.push({
+        index: j,
+        number: j + 1,
+        color,
+        id: mapID,
+        on: false,
+        stopIDs: dict[color][mapID].stopIDs,
+        station: dict[color][mapID].station,
+        line: dict[color][mapID].line
+      });
+      j++;
+    }
+  }
+
+  for (let item of all) {
+    counts[item.color]++;
+  }
+
+  allStations = all;
+
+  findStationsForAllStops();
+}
+
+function findStationsForAllStops() {
+  let d = {};
+  for(let station of allStations) {
+    for(let stopID of station.stopIDs) {
+      if(stopID in d) {} else {
+        d[stopID] = station.id;
+      }
+    }
+  }
+  stopToStationMap = d;
+}
+
+function determineState() {
+  console.log("trains: ", trains);
+
+  for(let train of trains) {
+    let lightID = stopToStationMap[train.nextStop];
+    for(let i in allStations) {
+      if(allStations[i].id == lightID
+        && allStations[i].line.train == train.line) {
+        allStations[i].on = true;
+      }
+    }
+  }
+
+  let lightsOn = 0;
+  for(let station of allStations) {
+    if(station.on) {
+      lightsOn++;
+    }
+  }
+
+  console.log("train length: ", trains.length);
+  console.log("lightsOn: ", lightsOn);
+  console.log("allStations: ", allStations);
+
+  document.getElementById("stations").innerHTML = stationsTemplate({stations: allStations});
+}
+
+function getStopColors(stop) {
+  let colors = []
+  for(let line of lines) {
+    if(stop[line.name]) {
+      if(line.name == "Pexp") { // this step combines Pexp and P lines
+        colors.push("P")
+      } else {
+        colors.push(line.name)
+      }
+    }
+  }
+  return colors;
+}
+
+function getLine(name) {
+  for(let line of lines) {
+    if(line.name == name) return line;
+  }
+}
+
+function getStation(mapID) {
+  for(let station of stations) {
+    if(station.stop_id == mapID) return station;
+  }
+}
+
+function getStop(stopID) {
+  for(let stop of stops) {
+    if(stop.STOP_ID == stopID) return stop;
+  }
 }
 
 function startPoll() {
@@ -62,7 +201,7 @@ function startPoll() {
 }
 
 function handleResponse(res) {
-  console.log("res: ", res);
+  // console.log("res: ", res);
 
   let resLines = res.ctatt.route;
   for(let line of resLines) {
@@ -87,6 +226,8 @@ function handleResponse(res) {
       color: line.color + TRAIN_OPACITY
     }).addTo(map).addTo(loopmap);
   }
+
+  determineState();
 
 }
 

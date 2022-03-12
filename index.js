@@ -59,9 +59,10 @@ L.tileLayer(MAP_TILE).addTo(map)
 L.tileLayer(MAP_TILE).addTo(loopmap);
 
 var stationLayer = L.layerGroup().addTo(map);
-var stationLayer = L.layerGroup().addTo(loopmap);
+var loopStationLayer = L.layerGroup().addTo(loopmap);
+
 var activeLayer = L.layerGroup().addTo(map);
-var activeLayer = L.layerGroup().addTo(loopmap);
+var loopActiveLayer = L.layerGroup().addTo(loopmap);
 
 // L.tileLayer(TRANSIT_TILE).addTo(map);
 // L.tileLayer(TRANSIT_TILE).addTo(loopmap);
@@ -233,6 +234,7 @@ function handleResponse(res) {
   // console.log("trains: ", trains);
 
   activeLayer.clearLayers();
+  loopActiveLayer.clearLayers();
 
   for(let train of trains) {
     let stop = getStopById(train.nextStop);
@@ -240,7 +242,7 @@ function handleResponse(res) {
     L.circleMarker(extractLocation(stop.Location), {
       radius: TRAIN_RADIUS,
       color: line.color + TRAIN_OPACITY
-    }).addTo(map).addTo(activeLayer);
+    }).addTo(activeLayer).addTo(loopActiveLayer);
   }
 
   determineState();
@@ -271,7 +273,7 @@ function drawStops() {
         L.circleMarker(extractLocation(stop.Location), {
           radius: STATION_RADIUS,
           color: line.color + STATION_OPACITY
-        }).addTo(map).addTo(stationLayer);;
+        }).addTo(stationLayer).addTo(loopStationLayer);
       }
     }
   }

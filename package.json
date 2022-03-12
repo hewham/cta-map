@@ -1,6 +1,6 @@
 {
-  "name": "cta_map",
-  "version": "0.2.1",
+  "name": "ctalmap",
+  "version": "0.2.2",
   "description": "Lights an led where trains are in real time",
   "main": "index.html",
   "scripts": {

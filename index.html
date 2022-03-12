@@ -15,37 +15,36 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
 
-    <div id="app">
-      
-    </div>
+    <div id="ctalmap">
+      <div class="map-container">
+        <div id="mainmap" class="map"></div>
+        <div id="loopmap" class="map"></div>
+      </div>
 
-    <div class="map-container">
-      <div id="mainmap" class="map"></div>
-      <div id="loopmap" class="map"></div>
-    </div>
-
-    <div id="stations"></div>
-
-    <script id="stations-template" type="text/x-handlebars-template">
-      <h1 style="margin-bottom: 0">🚉 {{ stations.length }} Stations </h1>
-      <h5>{{ trains }} trains at {{lights}} unique stops</h5>
-      {{#each stations}}
-        <div class="item monospace">
-          {{ number }})
-          {{#if on}}
-              <span class="circle on" style="color: {{line.color}}">&bull;</span>
+      <div id="stations"></div>
+      <script id="stations-template" type="text/x-handlebars-template">
+        <h1 style="margin-bottom: 0">🚉 {{ stations.length }} Stations </h1>
+        <h5>{{ trains }} trains at {{lights}} unique stops</h5>
+        {{#each stations}}
+          <div class="item monospace">
+            {{ number }})
+            {{#if on}}
+                <span class="circle on" style="color: {{line.color}}">&bull;</span>
+              {{ else }}
+                <span class="circle off" style="color: {{line.color}}">&bull;</span>
+              {{/if}}
+            {{#if station}}
+              <span class="item-name"> {{ station.stop_name }} </span>
             {{ else }}
-              <span class="circle off" style="color: {{line.color}}">&bull;</span>
+              <b>NO STATION</b>
             {{/if}}
-          {{#if station}}
-            <span class="item-name"> {{ station.stop_name }} </span>
-          {{ else }}
-            <b>NO STATION</b>
-          {{/if}}
-        </div>
-      {{/each}}
-      <p class="monospace" style="text-align: right">v{{ version }}</p>
-    </script>
+          </div>
+        {{/each}}
+        <p class="monospace" style="text-align: right">v{{ version }}</p>
+      </script>
+
+    </div>
+
 
     <script src="index.js"></script>
 

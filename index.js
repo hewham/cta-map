@@ -29,7 +29,7 @@ const TRANSIT_TILE = "https://1.base.maps.ls.hereapi.com/maptile/2.1/maptile/new
 
 // Supported values for rt are: "Red", "Blue", "Brn", "G", "Org", "P", "Pink", "Y".
 // const URL = "http://lapi.transitchicago.com/api/1.0/ttpositions.aspx?key=298af116f70948a7a9c5561c7050202c&outputType=JSON&rt=Red,Blue,Brn,G,Org,P,Pink,Y"
-const URL = "https://api.anonacy.com/v1/functions/cta/trains"
+const URL = "https://api.anonacy.com/v1/functions/cta/trains?req_src=ctalmap"
 // const URL = "http://localhost:3000/v1/functions/cta/trains"
 
 // const prefix = "http://localhost:3000/v1/functions/cors/"

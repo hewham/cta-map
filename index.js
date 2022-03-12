@@ -17,8 +17,8 @@ let trains = [];
 let stopToStationMap = {};
 let allStations = [];
 
-const pollTime = 1000 * 60 * 1; // 1 miniute
-// const pollTime = 1000 * 10;
+const pollTime = 1000 * 30 * 1;
+// const pollTime = 1000 * 50;
 const STATION_OPACITY = "33";
 const STATION_RADIUS = "2"
 const TRAIN_OPACITY = "ff";
@@ -55,6 +55,10 @@ var loopmap = L.map('loopmap', mapOptions).setView([41.8810, -87.6298], 15);
 
 L.tileLayer(MAP_TILE).addTo(map)
 L.tileLayer(MAP_TILE).addTo(loopmap);
+
+
+var stationLayer = L.layerGroup().addTo(map);
+var activeLayer = L.layerGroup().addTo(map);
 
 // L.tileLayer(TRANSIT_TILE).addTo(map);
 // L.tileLayer(TRANSIT_TILE).addTo(loopmap);
@@ -222,13 +226,15 @@ function handleResponse(res) {
 
   // console.log("trains: ", trains);
 
+  activeLayer.clearLayers();
+
   for(let train of trains) {
     let stop = getStopById(train.nextStop);
     let line = getLineByColor(train.line);
     L.circleMarker(extractLocation(stop.Location), {
       radius: TRAIN_RADIUS,
       color: line.color + TRAIN_OPACITY
-    }).addTo(map).addTo(loopmap);
+    }).addTo(map).addTo(activeLayer);
   }
 
   determineState();
@@ -259,7 +265,7 @@ function drawStops() {
         L.circleMarker(extractLocation(stop.Location), {
           radius: STATION_RADIUS,
           color: line.color + STATION_OPACITY
-        }).addTo(map).addTo(loopmap);;
+        }).addTo(map).addTo(stationLayer);;
       }
     }
   }

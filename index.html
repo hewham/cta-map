@@ -27,7 +27,8 @@
     <div id="stations"></div>
 
     <script id="stations-template" type="text/x-handlebars-template">
-      <h1>🚉 Stations</h1>
+      <h1 style="margin-bottom: 0">🚉 Stations </h1>
+      <h5>{{ trains }} trains, {{lights}} lights on</h5>
       {{#each stations}}
         <div class="item monospace">
           {{ number }})

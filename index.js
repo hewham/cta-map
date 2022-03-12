@@ -17,7 +17,8 @@ let trains = [];
 let stopToStationMap = {};
 let allStations = [];
 
-
+const pollTime = 1000 * 60 * 1; // 1 miniute
+// const pollTime = 1000 * 10;
 const STATION_OPACITY = "33";
 const STATION_RADIUS = "2"
 const TRAIN_OPACITY = "ff";
@@ -64,10 +65,9 @@ main();
 
 function main() {
   drawStops();
-
   findStops();
-  // startPoll();
-  httpGet(prefix + URL + suffix);
+  startPoll();
+  // httpGet(prefix + URL + suffix);
 }
 
 function findStops() {
@@ -136,7 +136,9 @@ function findStationsForAllStops() {
 }
 
 function determineState() {
-  console.log("trains: ", trains);
+  for (let i in allStations) {
+    allStations[i].on = false;
+  }
 
   for(let train of trains) {
     let lightID = stopToStationMap[train.nextStop];
@@ -155,11 +157,11 @@ function determineState() {
     }
   }
 
-  console.log("train length: ", trains.length);
-  console.log("lightsOn: ", lightsOn);
-  console.log("allStations: ", allStations);
+  // console.log("train length: ", trains.length);
+  // console.log("lightsOn: ", lightsOn);
+  // console.log("allStations: ", allStations);
 
-  document.getElementById("stations").innerHTML = stationsTemplate({stations: allStations});
+  document.getElementById("stations").innerHTML = stationsTemplate({stations: allStations, trains: trains.length, lights: lightsOn});
 }
 
 function getStopColors(stop) {
@@ -195,14 +197,16 @@ function getStop(stopID) {
 }
 
 function startPoll() {
+  httpGet(prefix + URL + suffix);
   setInterval(() => {
-    // httpGet(URL);
-  }, 1000 * 60 * 2)
+    httpGet(prefix + URL + suffix);
+  }, pollTime)
 }
 
 function handleResponse(res) {
   // console.log("res: ", res);
 
+  trains = [];
   let resLines = res.ctatt.route;
   for(let line of resLines) {
     if(line.train) {

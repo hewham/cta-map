@@ -18,7 +18,6 @@ let stopToStationMap = {};
 let allStations = [];
 
 const pollTime = 1000 * 30 * 1;
-// const pollTime = 1000 * 50;
 const STATION_OPACITY = "33";
 const STATION_RADIUS = "2"
 const TRAIN_OPACITY = "ff";
@@ -29,10 +28,13 @@ const MAP_TILE = "https://api.maptiler.com/maps/pastel/{z}/{x}/{y}.png?key=OHqsw
 const TRANSIT_TILE = "https://1.base.maps.ls.hereapi.com/maptile/2.1/maptile/newest/normal.day.transit/13/{z}/{x}/{y}/png8?apiKey=TYjZLDs5mcyHqFZkIYTU7MRWdO0YZ8DoEyCzIVRYVE0"
 
 // Supported values for rt are: "Red", "Blue", "Brn", "G", "Org", "P", "Pink", "Y".
-const URL = "http://lapi.transitchicago.com/api/1.0/ttpositions.aspx?key=298af116f70948a7a9c5561c7050202c&outputType=JSON&rt=Red,Blue,Brn,G,Org,P,Pink,Y"
+// const URL = "http://lapi.transitchicago.com/api/1.0/ttpositions.aspx?key=298af116f70948a7a9c5561c7050202c&outputType=JSON&rt=Red,Blue,Brn,G,Org,P,Pink,Y"
+const URL = "https://api.anonacy.com/v1/functions/cta/trains"
+// const URL = "http://localhost:3000/v1/functions/cta/trains"
 
-// const prefix = "http://0.0.0.0:8080/"
-const prefix = "https://cors-anywhere.herokuapp.com/"
+// const prefix = "http://localhost:3000/v1/functions/cors/"
+// const prefix = "https://cors-anywhere.herokuapp.com/"
+const prefix = ""
 const suffix = ""
 
 const Handlebars = require("handlebars");
@@ -56,13 +58,13 @@ var loopmap = L.map('loopmap', mapOptions).setView([41.8810, -87.6298], 15);
 L.tileLayer(MAP_TILE).addTo(map)
 L.tileLayer(MAP_TILE).addTo(loopmap);
 
-
 var stationLayer = L.layerGroup().addTo(map);
+var stationLayer = L.layerGroup().addTo(loopmap);
 var activeLayer = L.layerGroup().addTo(map);
+var activeLayer = L.layerGroup().addTo(loopmap);
 
 // L.tileLayer(TRANSIT_TILE).addTo(map);
 // L.tileLayer(TRANSIT_TILE).addTo(loopmap);
-
 // L.tileLayer('http://tile.thunderforest.com/transport/{z}/{x}/{y}.png').addTo(loopmap);
 
 main();
@@ -71,7 +73,6 @@ function main() {
   drawStops();
   findStops();
   startPoll();
-  // httpGet(prefix + URL + suffix);
 }
 
 function findStops() {
@@ -165,7 +166,12 @@ function determineState() {
   // console.log("lightsOn: ", lightsOn);
   // console.log("allStations: ", allStations);
 
-  document.getElementById("stations").innerHTML = stationsTemplate({stations: allStations, trains: trains.length, lights: lightsOn});
+  document.getElementById("stations").innerHTML = stationsTemplate({
+    stations: allStations, 
+    trains: trains.length, 
+    lights: lightsOn,
+    version: version
+  });
 }
 
 function getStopColors(stop) {

@@ -1,12 +1,13 @@
 {
   "name": "cta_map",
-  "version": "0.1.0",
+  "version": "0.2.1",
   "description": "Lights an led where trains are in real time",
   "main": "index.html",
   "scripts": {
     "start": "parcel index.html --open",
     "build": "parcel build index.html",
-    "cors": "node cors-anywhere/server.js"
+    "cors": "node cors-anywhere/server.js",
+    "deploy": "npm run build && firebase deploy --only hosting:ctalmap"
   },
   "author": "hewham",
   "license": "ISC",

@@ -1,1762 +1,5288 @@
 [
- {
-   "stop_id": 40010,
-   "stop_code": null,
-   "stop_name": "Austin (Blue)",
-   "stop_desc": "",
-   "stop_lat": 41.870851,
-   "stop_lon": -87.776812,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 0
- },
- {
-   "stop_id": 40020,
-   "stop_code": null,
-   "stop_name": "Harlem/Lake",
-   "stop_desc": "",
-   "stop_lat": 41.886848,
-   "stop_lon": -87.803176,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 40030,
-   "stop_code": null,
-   "stop_name": "Pulaski (Green)",
-   "stop_desc": "",
-   "stop_lat": 41.885412,
-   "stop_lon": -87.725404,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 40040,
-   "stop_code": null,
-   "stop_name": "Quincy",
-   "stop_desc": "",
-   "stop_lat": 41.878723,
-   "stop_lon": -87.63374,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 40050,
-   "stop_code": null,
-   "stop_name": "Davis",
-   "stop_desc": "",
-   "stop_lat": 42.04771,
-   "stop_lon": -87.683543,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 40060,
-   "stop_code": null,
-   "stop_name": "Belmont (Blue)",
-   "stop_desc": "",
-   "stop_lat": 41.9391107041,
-   "stop_lon": -87.71225212,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 0
- },
- {
-   "stop_id": 40070,
-   "stop_code": null,
-   "stop_name": "Jackson (Blue)",
-   "stop_desc": "",
-   "stop_lat": 41.878183,
-   "stop_lon": -87.629296,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 40080,
-   "stop_code": null,
-   "stop_name": "Sheridan",
-   "stop_desc": "",
-   "stop_lat": 41.9539048386,
-   "stop_lon": -87.6546614127,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 0
- },
- {
-   "stop_id": 40090,
-   "stop_code": null,
-   "stop_name": "Damen (Brown)",
-   "stop_desc": "",
-   "stop_lat": 41.966286,
-   "stop_lon": -87.678639,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 40100,
-   "stop_code": null,
-   "stop_name": "Morse",
-   "stop_desc": "",
-   "stop_lat": 42.008362,
-   "stop_lon": -87.665909,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 0
- },
- {
-   "stop_id": 40120,
-   "stop_code": null,
-   "stop_name": "35th/Archer",
-   "stop_desc": "",
-   "stop_lat": 41.829353,
-   "stop_lon": -87.680622,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 40130,
-   "stop_code": null,
-   "stop_name": "51st",
-   "stop_desc": "",
-   "stop_lat": 41.80209,
-   "stop_lon": -87.618487,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 40140,
-   "stop_code": null,
-   "stop_name": "Dempster-Skokie",
-   "stop_desc": "",
-   "stop_lat": 42.038951,
-   "stop_lon": -87.751919,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 40150,
-   "stop_code": null,
-   "stop_name": "Pulaski (Pink)",
-   "stop_desc": "",
-   "stop_lat": 41.853732,
-   "stop_lon": -87.724311,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 40160,
-   "stop_code": null,
-   "stop_name": "LaSalle/Van Buren",
-   "stop_desc": "",
-   "stop_lat": 41.8768,
-   "stop_lon": -87.631739,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 0
- },
- {
-   "stop_id": 40170,
-   "stop_code": null,
-   "stop_name": "Ashland (Green/Pink)",
-   "stop_desc": "",
-   "stop_lat": 41.885269,
-   "stop_lon": -87.666969,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 40180,
-   "stop_code": null,
-   "stop_name": "Oak Park (Blue)",
-   "stop_desc": "",
-   "stop_lat": 41.872108,
-   "stop_lon": -87.791602,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 0
- },
- {
-   "stop_id": 40190,
-   "stop_code": null,
-   "stop_name": "Sox-35th",
-   "stop_desc": "",
-   "stop_lat": 41.831191,
-   "stop_lon": -87.630636,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 40210,
-   "stop_code": null,
-   "stop_name": "Damen (Pink)",
-   "stop_desc": "",
-   "stop_lat": 41.854517,
-   "stop_lon": -87.675975,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 40220,
-   "stop_code": null,
-   "stop_name": "Western (Blue - Forest Park Branch)",
-   "stop_desc": "",
-   "stop_lat": 41.875478,
-   "stop_lon": -87.688436,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 0
- },
- {
-   "stop_id": 40230,
-   "stop_code": null,
-   "stop_name": "Cumberland",
-   "stop_desc": "",
-   "stop_lat": 41.984246,
-   "stop_lon": -87.838028,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 40240,
-   "stop_code": null,
-   "stop_name": "79th",
-   "stop_desc": "",
-   "stop_lat": 41.750419,
-   "stop_lon": -87.625112,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 40250,
-   "stop_code": null,
-   "stop_name": "Kedzie-Homan",
-   "stop_desc": "",
-   "stop_lat": 41.874341,
-   "stop_lon": -87.70604,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 40260,
-   "stop_code": null,
-   "stop_name": "State/Lake (Loop 'L')",
-   "stop_desc": "",
-   "stop_lat": 41.88574,
-   "stop_lon": -87.627835,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 0
- },
- {
-   "stop_id": 40270,
-   "stop_code": null,
-   "stop_name": "Main",
-   "stop_desc": "",
-   "stop_lat": 42.033456,
-   "stop_lon": -87.679538,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 0
- },
- {
-   "stop_id": 40280,
-   "stop_code": null,
-   "stop_name": "Central (Green)",
-   "stop_desc": "",
-   "stop_lat": 41.887389,
-   "stop_lon": -87.76565,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 40290,
-   "stop_code": null,
-   "stop_name": "Ashland/63rd",
-   "stop_desc": "",
-   "stop_lat": 41.77886,
-   "stop_lon": -87.663766,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 40300,
-   "stop_code": null,
-   "stop_name": "Indiana",
-   "stop_desc": "",
-   "stop_lat": 41.821732,
-   "stop_lon": -87.621371,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 40310,
-   "stop_code": null,
-   "stop_name": "Western (Orange)",
-   "stop_desc": "",
-   "stop_lat": 41.804546,
-   "stop_lon": -87.684019,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 40320,
-   "stop_code": null,
-   "stop_name": "Division",
-   "stop_desc": "",
-   "stop_lat": 41.903355,
-   "stop_lon": -87.666496,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 0
- },
- {
-   "stop_id": 40330,
-   "stop_code": null,
-   "stop_name": "Grand (Red)",
-   "stop_desc": "",
-   "stop_lat": 41.891665,
-   "stop_lon": -87.628021,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 40350,
-   "stop_code": null,
-   "stop_name": "UIC-Halsted",
-   "stop_desc": "",
-   "stop_lat": 41.875474,
-   "stop_lon": -87.649707,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 40360,
-   "stop_code": null,
-   "stop_name": "Southport",
-   "stop_desc": "",
-   "stop_lat": 41.943744,
-   "stop_lon": -87.663619,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 40370,
-   "stop_code": null,
-   "stop_name": "Washington",
-   "stop_desc": "",
-   "stop_lat": 41.883164,
-   "stop_lon": -87.62944,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 0
- },
- {
-   "stop_id": 40380,
-   "stop_code": null,
-   "stop_name": "Clark/Lake",
-   "stop_desc": "",
-   "stop_lat": 41.885737,
-   "stop_lon": -87.630886,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 40390,
-   "stop_code": null,
-   "stop_name": "Forest Park",
-   "stop_desc": "",
-   "stop_lat": 41.874257,
-   "stop_lon": -87.817318,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 40400,
-   "stop_code": null,
-   "stop_name": "Noyes",
-   "stop_desc": "",
-   "stop_lat": 42.058282,
-   "stop_lon": -87.683337,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 0
- },
- {
-   "stop_id": 40420,
-   "stop_code": null,
-   "stop_name": "Cicero (Pink)",
-   "stop_desc": "",
-   "stop_lat": 41.85182,
-   "stop_lon": -87.745336,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 40430,
-   "stop_code": null,
-   "stop_name": "Clinton (Blue)",
-   "stop_desc": "",
-   "stop_lat": 41.875539,
-   "stop_lon": -87.640984,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 0
- },
- {
-   "stop_id": 40440,
-   "stop_code": null,
-   "stop_name": "California (Pink)",
-   "stop_desc": "",
-   "stop_lat": 41.854109,
-   "stop_lon": -87.694774,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 40450,
-   "stop_code": null,
-   "stop_name": "95th/Dan Ryan",
-   "stop_desc": "",
-   "stop_lat": 41.722377,
-   "stop_lon": -87.624342,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 40460,
-   "stop_code": null,
-   "stop_name": "Merchandise Mart (Brown/Purple)",
-   "stop_desc": "",
-   "stop_lat": 41.888969,
-   "stop_lon": -87.633924,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 40470,
-   "stop_code": null,
-   "stop_name": "Racine",
-   "stop_desc": "",
-   "stop_lat": 41.87592,
-   "stop_lon": -87.659458,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 0
- },
- {
-   "stop_id": 40480,
-   "stop_code": null,
-   "stop_name": "Cicero (Green)",
-   "stop_desc": "",
-   "stop_lat": 41.886519,
-   "stop_lon": -87.744698,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 40490,
-   "stop_code": null,
-   "stop_name": "Grand (Blue)",
-   "stop_desc": "",
-   "stop_lat": 41.891189,
-   "stop_lon": -87.647578,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 0
- },
- {
-   "stop_id": 40510,
-   "stop_code": null,
-   "stop_name": "Garfield (Green)",
-   "stop_desc": "",
-   "stop_lat": 41.795172,
-   "stop_lon": -87.618327,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 40520,
-   "stop_code": null,
-   "stop_name": "Foster",
-   "stop_desc": "",
-   "stop_lat": 42.05416,
-   "stop_lon": -87.68356,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 0
- },
- {
-   "stop_id": 40530,
-   "stop_code": null,
-   "stop_name": "Diversey (Brown/Purple)",
-   "stop_desc": "",
-   "stop_lat": 41.932732,
-   "stop_lon": -87.653131,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 40540,
-   "stop_code": null,
-   "stop_name": "Wilson",
-   "stop_desc": "",
-   "stop_lat": 41.965481568,
-   "stop_lon": -87.6579258145,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 40550,
-   "stop_code": null,
-   "stop_name": "Irving Park (Blue)",
-   "stop_desc": "",
-   "stop_lat": 41.952925,
-   "stop_lon": -87.729229,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 0
- },
- {
-   "stop_id": 40560,
-   "stop_code": null,
-   "stop_name": "Jackson (Red)",
-   "stop_desc": "",
-   "stop_lat": 41.878153,
-   "stop_lon": -87.627596,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 40570,
-   "stop_code": null,
-   "stop_name": "California (Blue)",
-   "stop_desc": "",
-   "stop_lat": 41.9221583097,
-   "stop_lon": -87.6972439537,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 0
- },
- {
-   "stop_id": 40580,
-   "stop_code": null,
-   "stop_name": "54th/Cermak",
-   "stop_desc": "",
-   "stop_lat": 41.85177331,
-   "stop_lon": -87.75669201,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 40590,
-   "stop_code": null,
-   "stop_name": "Damen (Blue)",
-   "stop_desc": "",
-   "stop_lat": 41.9098452343,
-   "stop_lon": -87.6775400139,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 0
- },
- {
-   "stop_id": 40600,
-   "stop_code": null,
-   "stop_name": "Kostner",
-   "stop_desc": "",
-   "stop_lat": 41.853751,
-   "stop_lon": -87.733258,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 40610,
-   "stop_code": null,
-   "stop_name": "Ridgeland",
-   "stop_desc": "",
-   "stop_lat": 41.887159,
-   "stop_lon": -87.783661,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 0
- },
- {
-   "stop_id": 40630,
-   "stop_code": null,
-   "stop_name": "Clark/Division",
-   "stop_desc": "",
-   "stop_lat": 41.90392,
-   "stop_lon": -87.631412,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 40650,
-   "stop_code": null,
-   "stop_name": "North/Clybourn",
-   "stop_desc": "",
-   "stop_lat": 41.910655,
-   "stop_lon": -87.649177,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 0
- },
- {
-   "stop_id": 40660,
-   "stop_code": null,
-   "stop_name": "Armitage (Brown/Purple)",
-   "stop_desc": "",
-   "stop_lat": 41.918217,
-   "stop_lon": -87.652644,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 40670,
-   "stop_code": null,
-   "stop_name": "Western (Blue - O'Hare Branch)",
-   "stop_desc": "",
-   "stop_lat": 41.916157,
-   "stop_lon": -87.687364,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 40680,
-   "stop_code": null,
-   "stop_name": "Adams/Wabash",
-   "stop_desc": "",
-   "stop_lat": 41.879507,
-   "stop_lon": -87.626037,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 0
- },
- {
-   "stop_id": 40690,
-   "stop_code": null,
-   "stop_name": "Dempster",
-   "stop_desc": "",
-   "stop_lat": 42.041655,
-   "stop_lon": -87.681602,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 0
- },
- {
-   "stop_id": 40700,
-   "stop_code": null,
-   "stop_name": "Laramie",
-   "stop_desc": "",
-   "stop_lat": 41.887163,
-   "stop_lon": -87.754986,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 40710,
-   "stop_code": null,
-   "stop_name": "Chicago (Brown/Purple)",
-   "stop_desc": "",
-   "stop_lat": 41.89681,
-   "stop_lon": -87.635924,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 40720,
-   "stop_code": null,
-   "stop_name": "Cottage Grove",
-   "stop_desc": "",
-   "stop_lat": 41.780309,
-   "stop_lon": -87.605857,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 40730,
-   "stop_code": null,
-   "stop_name": "Washington/Wells",
-   "stop_desc": "",
-   "stop_lat": 41.882695,
-   "stop_lon": -87.63378,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 40740,
-   "stop_code": null,
-   "stop_name": "Western (Pink)",
-   "stop_desc": "",
-   "stop_lat": 41.854225,
-   "stop_lon": -87.685129,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 40750,
-   "stop_code": null,
-   "stop_name": "Harlem (Blue - O'Hare Branch)",
-   "stop_desc": "",
-   "stop_lat": 41.98227,
-   "stop_lon": -87.8089,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 40760,
-   "stop_code": null,
-   "stop_name": "Granville",
-   "stop_desc": "",
-   "stop_lat": 41.9944830093,
-   "stop_lon": -87.6591866269,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 40780,
-   "stop_code": null,
-   "stop_name": "Central Park",
-   "stop_desc": "",
-   "stop_lat": 41.853839,
-   "stop_lon": -87.714842,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 40790,
-   "stop_code": null,
-   "stop_name": "Monroe (Blue)",
-   "stop_desc": "",
-   "stop_lat": 41.880703,
-   "stop_lon": -87.629378,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 0
- },
- {
-   "stop_id": 40800,
-   "stop_code": null,
-   "stop_name": "Sedgwick (Brown/Purple)",
-   "stop_desc": "",
-   "stop_lat": 41.910409,
-   "stop_lon": -87.639302,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 40810,
-   "stop_code": null,
-   "stop_name": "Illinois Medical District",
-   "stop_desc": "",
-   "stop_lat": 41.875706,
-   "stop_lon": -87.673932,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 40820,
-   "stop_code": null,
-   "stop_name": "Rosemont",
-   "stop_desc": "",
-   "stop_lat": 41.983507,
-   "stop_lon": -87.859388,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 40830,
-   "stop_code": null,
-   "stop_name": "18th",
-   "stop_desc": "",
-   "stop_lat": 41.857908,
-   "stop_lon": -87.669147,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 40840,
-   "stop_code": null,
-   "stop_name": "South Boulevard",
-   "stop_desc": "",
-   "stop_lat": 42.027612,
-   "stop_lon": -87.678329,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 0
- },
- {
-   "stop_id": 40850,
-   "stop_code": null,
-   "stop_name": "Harold Washington Library-State/Van Buren",
-   "stop_desc": "",
-   "stop_lat": 41.876862,
-   "stop_lon": -87.628196,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 40870,
-   "stop_code": null,
-   "stop_name": "Francisco",
-   "stop_desc": "",
-   "stop_lat": 41.966046,
-   "stop_lon": -87.701644,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 40880,
-   "stop_code": null,
-   "stop_name": "Thorndale",
-   "stop_desc": "",
-   "stop_lat": 41.9900990857,
-   "stop_lon": -87.6590684978,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 0
- },
- {
-   "stop_id": 40890,
-   "stop_code": null,
-   "stop_name": "O'Hare",
-   "stop_desc": "",
-   "stop_lat": 41.97766526,
-   "stop_lon": -87.90422307,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 40900,
-   "stop_code": null,
-   "stop_name": "Howard",
-   "stop_desc": "",
-   "stop_lat": 42.019063,
-   "stop_lon": -87.672892,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 40910,
-   "stop_code": null,
-   "stop_name": "63rd",
-   "stop_desc": "",
-   "stop_lat": 41.780536,
-   "stop_lon": -87.630952,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 40920,
-   "stop_code": null,
-   "stop_name": "Pulaski (Blue)",
-   "stop_desc": "",
-   "stop_lat": 41.873797,
-   "stop_lon": -87.725663,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 0
- },
- {
-   "stop_id": 40930,
-   "stop_code": null,
-   "stop_name": "Midway",
-   "stop_desc": "",
-   "stop_lat": 41.78661,
-   "stop_lon": -87.737875,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 40940,
-   "stop_code": null,
-   "stop_name": "Halsted (Green)",
-   "stop_desc": "",
-   "stop_lat": 41.778943,
-   "stop_lon": -87.644244,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 40960,
-   "stop_code": null,
-   "stop_name": "Pulaski (Orange)",
-   "stop_desc": "",
-   "stop_lat": 41.799756,
-   "stop_lon": -87.724493,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 40970,
-   "stop_code": null,
-   "stop_name": "Cicero (Blue)",
-   "stop_desc": "",
-   "stop_lat": 41.871574,
-   "stop_lon": -87.745154,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 0
- },
- {
-   "stop_id": 40980,
-   "stop_code": null,
-   "stop_name": "Harlem (Blue - Forest Park Branch)",
-   "stop_desc": "",
-   "stop_lat": 41.87349,
-   "stop_lon": -87.806961,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 0
- },
- {
-   "stop_id": 40990,
-   "stop_code": null,
-   "stop_name": "69th",
-   "stop_desc": "",
-   "stop_lat": 41.768367,
-   "stop_lon": -87.625724,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 41000,
-   "stop_code": null,
-   "stop_name": "Cermak-Chinatown",
-   "stop_desc": "",
-   "stop_lat": 41.853206,
-   "stop_lon": -87.630968,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 41010,
-   "stop_code": null,
-   "stop_name": "Rockwell",
-   "stop_desc": "",
-   "stop_lat": 41.966115,
-   "stop_lon": -87.6941,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 41020,
-   "stop_code": null,
-   "stop_name": "Logan Square",
-   "stop_desc": "",
-   "stop_lat": 41.9295342259,
-   "stop_lon": -87.7076881549,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 41030,
-   "stop_code": null,
-   "stop_name": "Polk",
-   "stop_desc": "",
-   "stop_lat": 41.871551,
-   "stop_lon": -87.66953,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 41040,
-   "stop_code": null,
-   "stop_name": "Kedzie (Pink)",
-   "stop_desc": "",
-   "stop_lat": 41.853964,
-   "stop_lon": -87.705408,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 41050,
-   "stop_code": null,
-   "stop_name": "Linden",
-   "stop_desc": "",
-   "stop_lat": 42.073153,
-   "stop_lon": -87.69073,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 41060,
-   "stop_code": null,
-   "stop_name": "Ashland (Orange)",
-   "stop_desc": "",
-   "stop_lat": 41.839234,
-   "stop_lon": -87.665317,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 41070,
-   "stop_code": null,
-   "stop_name": "Kedzie (Green)",
-   "stop_desc": "",
-   "stop_lat": 41.884321,
-   "stop_lon": -87.706155,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 41080,
-   "stop_code": null,
-   "stop_name": "47th (Green)",
-   "stop_desc": "",
-   "stop_lat": 41.809209,
-   "stop_lon": -87.618826,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 41090,
-   "stop_code": null,
-   "stop_name": "Monroe (Red)",
-   "stop_desc": "",
-   "stop_lat": 41.880745,
-   "stop_lon": -87.627696,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 0
- },
- {
-   "stop_id": 41120,
-   "stop_code": null,
-   "stop_name": "35th-Bronzeville-IIT",
-   "stop_desc": "",
-   "stop_lat": 41.831677,
-   "stop_lon": -87.625826,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 41130,
-   "stop_code": null,
-   "stop_name": "Halsted (Orange)",
-   "stop_desc": "",
-   "stop_lat": 41.84678,
-   "stop_lon": -87.648088,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 41140,
-   "stop_code": null,
-   "stop_name": "King Drive",
-   "stop_desc": "",
-   "stop_lat": 41.78013,
-   "stop_lon": -87.615546,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 41150,
-   "stop_code": null,
-   "stop_name": "Kedzie (Orange)",
-   "stop_desc": "",
-   "stop_lat": 41.804236,
-   "stop_lon": -87.704406,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 41160,
-   "stop_code": null,
-   "stop_name": "Clinton (Green/Pink)",
-   "stop_desc": "",
-   "stop_lat": 41.885678,
-   "stop_lon": -87.641782,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 41170,
-   "stop_code": null,
-   "stop_name": "Garfield (Red)",
-   "stop_desc": "",
-   "stop_lat": 41.79542,
-   "stop_lon": -87.631157,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 41180,
-   "stop_code": null,
-   "stop_name": "Kedzie (Brown)",
-   "stop_desc": "",
-   "stop_lat": 41.965996,
-   "stop_lon": -87.708821,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 41190,
-   "stop_code": null,
-   "stop_name": "Jarvis",
-   "stop_desc": "",
-   "stop_lat": 42.0160204165,
-   "stop_lon": -87.6692571266,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 0
- },
- {
-   "stop_id": 41200,
-   "stop_code": null,
-   "stop_name": "Argyle",
-   "stop_desc": "",
-   "stop_lat": 41.9733220506,
-   "stop_lon": -87.6585279483,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 0
- },
- {
-   "stop_id": 41210,
-   "stop_code": null,
-   "stop_name": "Wellington (Brown/Purple)",
-   "stop_desc": "",
-   "stop_lat": 41.936033,
-   "stop_lon": -87.653266,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 41220,
-   "stop_code": null,
-   "stop_name": "Fullerton",
-   "stop_desc": "",
-   "stop_lat": 41.9253003719,
-   "stop_lon": -87.6528684398,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 41230,
-   "stop_code": null,
-   "stop_name": "47th (Red)",
-   "stop_desc": "",
-   "stop_lat": 41.810318,
-   "stop_lon": -87.63094,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 41240,
-   "stop_code": null,
-   "stop_name": "Addison (Blue)",
-   "stop_desc": "",
-   "stop_lat": 41.9466037164,
-   "stop_lon": -87.7184584172,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 41250,
-   "stop_code": null,
-   "stop_name": "Central (Purple)",
-   "stop_desc": "",
-   "stop_lat": 42.063987,
-   "stop_lon": -87.685617,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 0
- },
- {
-   "stop_id": 41260,
-   "stop_code": null,
-   "stop_name": "Austin (Green)",
-   "stop_desc": "",
-   "stop_lat": 41.887293,
-   "stop_lon": -87.774135,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 0
- },
- {
-   "stop_id": 41270,
-   "stop_code": null,
-   "stop_name": "43rd",
-   "stop_desc": "",
-   "stop_lat": 41.816462,
-   "stop_lon": -87.619021,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 41280,
-   "stop_code": null,
-   "stop_name": "Jefferson Park Transit Center",
-   "stop_desc": "",
-   "stop_lat": 41.9702338623,
-   "stop_lon": -87.7615940115,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 41290,
-   "stop_code": null,
-   "stop_name": "Kimball",
-   "stop_desc": "",
-   "stop_lat": 41.967901,
-   "stop_lon": -87.713065,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 41300,
-   "stop_code": null,
-   "stop_name": "Loyola",
-   "stop_desc": "",
-   "stop_lat": 42.001073,
-   "stop_lon": -87.661061,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 41310,
-   "stop_code": null,
-   "stop_name": "Paulina",
-   "stop_desc": "",
-   "stop_lat": 41.943623,
-   "stop_lon": -87.670907,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 41320,
-   "stop_code": null,
-   "stop_name": "Belmont (Red/Brown/Purple)",
-   "stop_desc": "",
-   "stop_lat": 41.939751,
-   "stop_lon": -87.65338,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 41330,
-   "stop_code": null,
-   "stop_name": "Montrose (Blue)",
-   "stop_desc": "",
-   "stop_lat": 41.9609010454,
-   "stop_lon": -87.7429034362,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 0
- },
- {
-   "stop_id": 41340,
-   "stop_code": null,
-   "stop_name": "LaSalle",
-   "stop_desc": "",
-   "stop_lat": 41.875568,
-   "stop_lon": -87.631722,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 0
- },
- {
-   "stop_id": 41350,
-   "stop_code": null,
-   "stop_name": "Oak Park (Green)",
-   "stop_desc": "",
-   "stop_lat": 41.886988,
-   "stop_lon": -87.793783,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 0
- },
- {
-   "stop_id": 41360,
-   "stop_code": null,
-   "stop_name": "California (Green)",
-   "stop_desc": "",
-   "stop_lat": 41.88422,
-   "stop_lon": -87.696234,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 41380,
-   "stop_code": null,
-   "stop_name": "Bryn Mawr",
-   "stop_desc": "",
-   "stop_lat": 41.983504,
-   "stop_lon": -87.65884,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 0
- },
- {
-   "stop_id": 41400,
-   "stop_code": null,
-   "stop_name": "Roosevelt",
-   "stop_desc": "",
-   "stop_lat": 41.8673785311,
-   "stop_lon": -87.6270314058,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 41410,
-   "stop_code": null,
-   "stop_name": "Chicago (Blue)",
-   "stop_desc": "",
-   "stop_lat": 41.896075,
-   "stop_lon": -87.655214,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 0
- },
- {
-   "stop_id": 41420,
-   "stop_code": null,
-   "stop_name": "Addison (Red)",
-   "stop_desc": "",
-   "stop_lat": 41.947316173,
-   "stop_lon": -87.6536241013,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 41430,
-   "stop_code": null,
-   "stop_name": "87th",
-   "stop_desc": "",
-   "stop_lat": 41.735372,
-   "stop_lon": -87.624717,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 41440,
-   "stop_code": null,
-   "stop_name": "Addison (Brown)",
-   "stop_desc": "",
-   "stop_lat": 41.947028,
-   "stop_lon": -87.674642,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 41450,
-   "stop_code": null,
-   "stop_name": "Chicago (Red)",
-   "stop_desc": "",
-   "stop_lat": 41.896671,
-   "stop_lon": -87.628176,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 41460,
-   "stop_code": null,
-   "stop_name": "Irving Park (Brown)",
-   "stop_desc": "",
-   "stop_lat": 41.954521,
-   "stop_lon": -87.674868,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 41480,
-   "stop_code": null,
-   "stop_name": "Western (Brown)",
-   "stop_desc": "",
-   "stop_lat": 41.966163,
-   "stop_lon": -87.688502,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 41490,
-   "stop_code": null,
-   "stop_name": "Harrison",
-   "stop_desc": "",
-   "stop_lat": 41.874039,
-   "stop_lon": -87.627479,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 0
- },
- {
-   "stop_id": 41500,
-   "stop_code": null,
-   "stop_name": "Montrose (Brown)",
-   "stop_desc": "",
-   "stop_lat": 41.961756,
-   "stop_lon": -87.675047,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 41510,
-   "stop_code": null,
-   "stop_name": "Morgan (Green/Pink)",
-   "stop_desc": "",
-   "stop_lat": 41.88557676,
-   "stop_lon": -87.65212993,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 41660,
-   "stop_code": null,
-   "stop_name": "Lake (Subway)",
-   "stop_desc": "",
-   "stop_lat": 41.884809,
-   "stop_lon": -87.627813,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 41670,
-   "stop_code": null,
-   "stop_name": "Conservatory-Central Park Drive",
-   "stop_desc": "",
-   "stop_lat": 41.884904,
-   "stop_lon": -87.716523,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 41680,
-   "stop_code": null,
-   "stop_name": "Oakton-Skokie",
-   "stop_desc": "",
-   "stop_lat": 42.02624348,
-   "stop_lon": -87.74722084,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 41690,
-   "stop_code": null,
-   "stop_name": "Cermak-McCormick Place",
-   "stop_desc": "",
-   "stop_lat": 41.853115,
-   "stop_lon": -87.626402,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 41700,
-   "stop_code": null,
-   "stop_name": "Washington/Wabash",
-   "stop_desc": "",
-   "stop_lat": 41.88322,
-   "stop_lon": -87.626189,
-   "location_type": 1,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 60000,
-   "stop_code": null,
-   "stop_name": "Clark/Division - NW corner",
-   "stop_desc": "Stairs from NW corner of Clark & Division",
-   "stop_lat": 41.904,
-   "stop_lon": -87.6315,
-   "location_type": 2,
-   "parent_station": 40630,
-   "wheelchair_boarding": 2
- },
- {
-   "stop_id": 60001,
-   "stop_code": null,
-   "stop_name": "Clark/Division - NE corner",
-   "stop_desc": "Stairs from NE corner of Clark & Division",
-   "stop_lat": 41.904,
-   "stop_lon": -87.6314,
-   "location_type": 2,
-   "parent_station": 40630,
-   "wheelchair_boarding": 2
- },
- {
-   "stop_id": 60002,
-   "stop_code": null,
-   "stop_name": "Clark/Division - SW corner",
-   "stop_desc": "Stairs from SW corner of Clark & Division",
-   "stop_lat": 41.9038,
-   "stop_lon": -87.6315,
-   "location_type": 2,
-   "parent_station": 40630,
-   "wheelchair_boarding": 2
- },
- {
-   "stop_id": 60003,
-   "stop_code": null,
-   "stop_name": "Clark/Division - SE corner",
-   "stop_desc": "Stairs from SE corner of Clark & Division",
-   "stop_lat": 41.9038,
-   "stop_lon": -87.6314,
-   "location_type": 2,
-   "parent_station": 40630,
-   "wheelchair_boarding": 2
- },
- {
-   "stop_id": 60004,
-   "stop_code": null,
-   "stop_name": "LaSalle/Division NE corner",
-   "stop_desc": "Stairs from NE corner of LaSalle & Division",
-   "stop_lat": 41.904,
-   "stop_lon": -87.6328,
-   "location_type": 2,
-   "parent_station": 40630,
-   "wheelchair_boarding": 2
- },
- {
-   "stop_id": 60005,
-   "stop_code": null,
-   "stop_name": "LaSalle/Division SE corner)",
-   "stop_desc": "Stairs from SE corner of LaSalle & Division",
-   "stop_lat": 41.9038,
-   "stop_lon": -87.6328,
-   "location_type": 2,
-   "parent_station": 40630,
-   "wheelchair_boarding": 2
- },
- {
-   "stop_id": 60006,
-   "stop_code": null,
-   "stop_name": "Clark/Division (LaSalle/Division SE corner elevator)",
-   "stop_desc": "Elevator from SE corner of LaSalle & Division",
-   "stop_lat": 41.90382,
-   "stop_lon": -87.6328,
-   "location_type": 2,
-   "parent_station": 40630,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 60007,
-   "stop_code": null,
-   "stop_name": "Harlem/Lake (Harlem Av entry)",
-   "stop_desc": "Main entrance on Harlem",
-   "stop_lat": 41.8868,
-   "stop_lon": -87.8051,
-   "location_type": 2,
-   "parent_station": 40020,
-   "wheelchair_boarding": 2
- },
- {
-   "stop_id": 60008,
-   "stop_code": null,
-   "stop_name": "Harlem/Lake (Marion St entry)",
-   "stop_desc": "Accessible entrance with connection to Metra UP-W Oak Park Station",
-   "stop_lat": 41.8868,
-   "stop_lon": -87.8033,
-   "location_type": 2,
-   "parent_station": 40020,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 60009,
-   "stop_code": null,
-   "stop_name": "Sox-35th (33rd St entry)",
-   "stop_desc": "Auxiliary entrance farecard required",
-   "stop_lat": 41.83458,
-   "stop_lon": -87.6307,
-   "location_type": 2,
-   "parent_station": 40190,
-   "wheelchair_boarding": 2
- },
- {
-   "stop_id": 60010,
-   "stop_code": null,
-   "stop_name": "Sox-35th (35th St entry)",
-   "stop_desc": "Main entrance accessible",
-   "stop_lat": 41.83106,
-   "stop_lon": -87.6307,
-   "location_type": 2,
-   "parent_station": 40190,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 60011,
-   "stop_code": null,
-   "stop_name": "Wilson (Wilson Av south side entry)",
-   "stop_desc": "Main entrance on south side of Wilson accessible via elevators",
-   "stop_lat": 41.96528,
-   "stop_lon": -87.6579,
-   "location_type": 2,
-   "parent_station": 40540,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 60012,
-   "stop_code": null,
-   "stop_name": "Wilson (Sunnyside Av entry)",
-   "stop_desc": "Entrance on Sunnyside west of B'way accessible via ramps",
-   "stop_lat": 41.9635,
-   "stop_lon": -87.6573,
-   "location_type": 2,
-   "parent_station": 40540,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 60013,
-   "stop_code": null,
-   "stop_name": "Wilson (Wilson Av north side entry)",
-   "stop_desc": "Auxiliary entrance on north side of Wilson farecard required",
-   "stop_lat": 41.96553,
-   "stop_lon": -87.658,
-   "location_type": 2,
-   "parent_station": 40540,
-   "wheelchair_boarding": 2
- },
- {
-   "stop_id": 999990,
-   "stop_code": 999990,
-   "stop_name": "Rosemont Blue Line",
-   "stop_desc": "Rosemont Blue Line Station Terminal",
-   "stop_lat": 41.9840004,
-   "stop_lon": -87.860325,
-   "location_type": 0,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 999991,
-   "stop_code": 999991,
-   "stop_name": "O'Hare Airport",
-   "stop_desc": "O'Hare Airport Bus Terminal",
-   "stop_lat": 41.9778699,
-   "stop_lon": -87.9040304,
-   "location_type": 0,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 999994,
-   "stop_code": 999994,
-   "stop_name": "McCormick Place",
-   "stop_desc": "McCormick Place North Shuttle Stop",
-   "stop_lat": 41.852922,
-   "stop_lon": -87.615672,
-   "location_type": 0,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 999995,
-   "stop_code": 999995,
-   "stop_name": "63rd Street & Rhodes",
-   "stop_desc": "63rd Street & Rhodes, Eastbound, Southeast Corner",
-   "stop_lat": 41.780259,
-   "stop_lon": -87.611814,
-   "location_type": 0,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- },
- {
-   "stop_id": 16077,
-   "stop_code": 16077,
-   "stop_name": "63rd Street & Cottage Grove (Green Line)",
-   "stop_desc": "63rd Street & Cottage Grove (Green Line), Westbound, Northwest Corner",
-   "stop_lat": 41.78046531,
-   "stop_lon": -87.60617373,
-   "location_type": 0,
-   "parent_station": null,
-   "wheelchair_boarding": 1
- }
+  {
+      "index": 0,
+      "number": 120,
+      "color": "RED",
+      "id": "40080",
+      "on": false,
+      "stopIDs": [
+          30017,
+          30294,
+          30016,
+          30293
+      ],
+      "station": {
+          "stop_id": 40080,
+          "stop_code": null,
+          "stop_name": "Sheridan",
+          "stop_desc": "",
+          "stop_lat": 41.9539048386,
+          "stop_lon": -87.6546614127,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 0
+      },
+      "line": {
+          "name": "RED",
+          "route": "Red",
+          "train": "red",
+          "color": "#ff0000"
+      }
+  },
+  {
+      "index": 1,
+      "number": 130,
+      "color": "RED",
+      "id": "40100",
+      "on": false,
+      "stopIDs": [
+          30020,
+          30021
+      ],
+      "station": {
+          "stop_id": 40100,
+          "stop_code": null,
+          "stop_name": "Morse",
+          "stop_desc": "",
+          "stop_lat": 42.008362,
+          "stop_lon": -87.665909,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 0
+      },
+      "line": {
+          "name": "RED",
+          "route": "Red",
+          "train": "red",
+          "color": "#ff0000"
+      }
+  },
+  {
+      "index": 2,
+      "number": 16,
+      "color": "RED",
+      "id": "40190",
+      "on": false,
+      "stopIDs": [
+          30036,
+          30037
+      ],
+      "station": {
+          "stop_id": 40190,
+          "stop_code": null,
+          "stop_name": "Sox-35th",
+          "stop_desc": "",
+          "stop_lat": 41.831191,
+          "stop_lon": -87.630636,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "RED",
+          "route": "Red",
+          "train": "red",
+          "color": "#ff0000"
+      }
+  },
+  {
+      "index": 3,
+      "number": 3,
+      "color": "RED",
+      "id": "40240",
+      "on": false,
+      "stopIDs": [
+          30047,
+          30046
+      ],
+      "station": {
+          "stop_id": 40240,
+          "stop_code": null,
+          "stop_name": "79th",
+          "stop_desc": "",
+          "stop_lat": 41.750419,
+          "stop_lon": -87.625112,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "RED",
+          "route": "Red",
+          "train": "red",
+          "color": "#ff0000"
+      }
+  },
+  {
+      "index": 4,
+      "number": 107,
+      "color": "RED",
+      "id": "40330",
+      "on": false,
+      "stopIDs": [
+          30064,
+          30065
+      ],
+      "station": {
+          "stop_id": 40330,
+          "stop_code": null,
+          "stop_name": "Grand (Red)",
+          "stop_desc": "",
+          "stop_lat": 41.891665,
+          "stop_lon": -87.628021,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "RED",
+          "route": "Red",
+          "train": "red",
+          "color": "#ff0000"
+      }
+  },
+  {
+      "index": 5,
+      "number": 6,
+      "color": "RED",
+      "id": "40340",
+      "on": false,
+      "stopIDs": [
+          30067,
+          30066
+      ],
+      "line": {
+          "name": "RED",
+          "route": "Red",
+          "train": "red",
+          "color": "#ff0000"
+      }
+  },
+  {
+      "index": 6,
+      "number": 1,
+      "color": "RED",
+      "id": "40450",
+      "on": false,
+      "stopIDs": [
+          30088,
+          30089
+      ],
+      "station": {
+          "stop_id": 40450,
+          "stop_code": null,
+          "stop_name": "95th/Dan Ryan",
+          "stop_desc": "",
+          "stop_lat": 41.722377,
+          "stop_lon": -87.624342,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "RED",
+          "route": "Red",
+          "train": "red",
+          "color": "#ff0000"
+      }
+  },
+  {
+      "index": 7,
+      "number": 121,
+      "color": "RED",
+      "id": "40540",
+      "on": false,
+      "stopIDs": [
+          30106,
+          30105
+      ],
+      "station": {
+          "stop_id": 40540,
+          "stop_code": null,
+          "stop_name": "Wilson",
+          "stop_desc": "",
+          "stop_lat": 41.965481568,
+          "stop_lon": -87.6579258145,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "RED",
+          "route": "Red",
+          "train": "red",
+          "color": "#ff0000"
+      }
+  },
+  {
+      "index": 8,
+      "number": 155,
+      "color": "RED",
+      "id": "40560",
+      "on": false,
+      "stopIDs": [
+          30110,
+          30109
+      ],
+      "station": {
+          "stop_id": 40560,
+          "stop_code": null,
+          "stop_name": "Jackson (Red)",
+          "stop_desc": "",
+          "stop_lat": 41.878153,
+          "stop_lon": -87.627596,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "RED",
+          "route": "Red",
+          "train": "red",
+          "color": "#ff0000"
+      }
+  },
+  {
+      "index": 9,
+      "number": 109,
+      "color": "RED",
+      "id": "40630",
+      "on": false,
+      "stopIDs": [
+          30121,
+          30122
+      ],
+      "station": {
+          "stop_id": 40630,
+          "stop_code": null,
+          "stop_name": "Clark/Division",
+          "stop_desc": "",
+          "stop_lat": 41.90392,
+          "stop_lon": -87.631412,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "RED",
+          "route": "Red",
+          "train": "red",
+          "color": "#ff0000"
+      }
+  },
+  {
+      "index": 10,
+      "number": 104,
+      "color": "RED",
+      "id": "40650",
+      "on": false,
+      "stopIDs": [
+          30125,
+          30126
+      ],
+      "station": {
+          "stop_id": 40650,
+          "stop_code": null,
+          "stop_name": "North/Clybourn",
+          "stop_desc": "",
+          "stop_lat": 41.910655,
+          "stop_lon": -87.649177,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 0
+      },
+      "line": {
+          "name": "RED",
+          "route": "Red",
+          "train": "red",
+          "color": "#ff0000"
+      }
+  },
+  {
+      "index": 11,
+      "number": 128,
+      "color": "RED",
+      "id": "40760",
+      "on": false,
+      "stopIDs": [
+          30148,
+          30147
+      ],
+      "station": {
+          "stop_id": 40760,
+          "stop_code": null,
+          "stop_name": "Granville",
+          "stop_desc": "",
+          "stop_lat": 41.9944830093,
+          "stop_lon": -87.6591866269,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "RED",
+          "route": "Red",
+          "train": "red",
+          "color": "#ff0000"
+      }
+  },
+  {
+      "index": 12,
+      "number": 13,
+      "color": "RED",
+      "id": "40770",
+      "on": false,
+      "stopIDs": [
+          30149,
+          30150
+      ],
+      "line": {
+          "name": "RED",
+          "route": "Red",
+          "train": "red",
+          "color": "#ff0000"
+      }
+  },
+  {
+      "index": 13,
+      "number": 127,
+      "color": "RED",
+      "id": "40880",
+      "on": false,
+      "stopIDs": [
+          30170,
+          30169
+      ],
+      "station": {
+          "stop_id": 40880,
+          "stop_code": null,
+          "stop_name": "Thorndale",
+          "stop_desc": "",
+          "stop_lat": 41.9900990857,
+          "stop_lon": -87.6590684978,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 0
+      },
+      "line": {
+          "name": "RED",
+          "route": "Red",
+          "train": "red",
+          "color": "#ff0000"
+      }
+  },
+  {
+      "index": 14,
+      "number": 138,
+      "color": "RED",
+      "id": "40900",
+      "on": false,
+      "stopIDs": [
+          30173,
+          30174
+      ],
+      "station": {
+          "stop_id": 40900,
+          "stop_code": null,
+          "stop_name": "Howard",
+          "stop_desc": "",
+          "stop_lat": 42.019063,
+          "stop_lon": -87.672892,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "RED",
+          "route": "Red",
+          "train": "red",
+          "color": "#ff0000"
+      }
+  },
+  {
+      "index": 15,
+      "number": 5,
+      "color": "RED",
+      "id": "40910",
+      "on": false,
+      "stopIDs": [
+          30178,
+          30177
+      ],
+      "station": {
+          "stop_id": 40910,
+          "stop_code": null,
+          "stop_name": "63rd",
+          "stop_desc": "",
+          "stop_lat": 41.780536,
+          "stop_lon": -87.630952,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "RED",
+          "route": "Red",
+          "train": "red",
+          "color": "#ff0000"
+      }
+  },
+  {
+      "index": 16,
+      "number": 4,
+      "color": "RED",
+      "id": "40990",
+      "on": false,
+      "stopIDs": [
+          30192,
+          30191
+      ],
+      "station": {
+          "stop_id": 40990,
+          "stop_code": null,
+          "stop_name": "69th",
+          "stop_desc": "",
+          "stop_lat": 41.768367,
+          "stop_lon": -87.625724,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "RED",
+          "route": "Red",
+          "train": "red",
+          "color": "#ff0000"
+      }
+  },
+  {
+      "index": 17,
+      "number": 15,
+      "color": "RED",
+      "id": "41000",
+      "on": false,
+      "stopIDs": [
+          30193,
+          30194
+      ],
+      "station": {
+          "stop_id": 41000,
+          "stop_code": null,
+          "stop_name": "Cermak-Chinatown",
+          "stop_desc": "",
+          "stop_lat": 41.853206,
+          "stop_lon": -87.630968,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "RED",
+          "route": "Red",
+          "train": "red",
+          "color": "#ff0000"
+      }
+  },
+  {
+      "index": 18,
+      "number": 191,
+      "color": "RED",
+      "id": "41090",
+      "on": false,
+      "stopIDs": [
+          30211,
+          30212
+      ],
+      "station": {
+          "stop_id": 41090,
+          "stop_code": null,
+          "stop_name": "Monroe (Red)",
+          "stop_desc": "",
+          "stop_lat": 41.880745,
+          "stop_lon": -87.627696,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 0
+      },
+      "line": {
+          "name": "RED",
+          "route": "Red",
+          "train": "red",
+          "color": "#ff0000"
+      }
+  },
+  {
+      "index": 19,
+      "number": 18,
+      "color": "RED",
+      "id": "41170",
+      "on": false,
+      "stopIDs": [
+          30223,
+          30224
+      ],
+      "station": {
+          "stop_id": 41170,
+          "stop_code": null,
+          "stop_name": "Garfield (Red)",
+          "stop_desc": "",
+          "stop_lat": 41.79542,
+          "stop_lon": -87.631157,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "RED",
+          "route": "Red",
+          "train": "red",
+          "color": "#ff0000"
+      }
+  },
+  {
+      "index": 20,
+      "number": 137,
+      "color": "RED",
+      "id": "41190",
+      "on": false,
+      "stopIDs": [
+          30227,
+          30228
+      ],
+      "station": {
+          "stop_id": 41190,
+          "stop_code": null,
+          "stop_name": "Jarvis",
+          "stop_desc": "",
+          "stop_lat": 42.0160204165,
+          "stop_lon": -87.6692571266,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 0
+      },
+      "line": {
+          "name": "RED",
+          "route": "Red",
+          "train": "red",
+          "color": "#ff0000"
+      }
+  },
+  {
+      "index": 21,
+      "number": 124,
+      "color": "RED",
+      "id": "41200",
+      "on": false,
+      "stopIDs": [
+          30229,
+          30230
+      ],
+      "station": {
+          "stop_id": 41200,
+          "stop_code": null,
+          "stop_name": "Argyle",
+          "stop_desc": "",
+          "stop_lat": 41.9733220506,
+          "stop_lon": -87.6585279483,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 0
+      },
+      "line": {
+          "name": "RED",
+          "route": "Red",
+          "train": "red",
+          "color": "#ff0000"
+      }
+  },
+  {
+      "index": 22,
+      "number": 114,
+      "color": "RED",
+      "id": "41220",
+      "on": false,
+      "stopIDs": [
+          30233,
+          30234
+      ],
+      "station": {
+          "stop_id": 41220,
+          "stop_code": null,
+          "stop_name": "Fullerton",
+          "stop_desc": "",
+          "stop_lat": 41.9253003719,
+          "stop_lon": -87.6528684398,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "RED",
+          "route": "Red",
+          "train": "red",
+          "color": "#ff0000"
+      }
+  },
+  {
+      "index": 23,
+      "number": 17,
+      "color": "RED",
+      "id": "41230",
+      "on": false,
+      "stopIDs": [
+          30237,
+          30238
+      ],
+      "station": {
+          "stop_id": 41230,
+          "stop_code": null,
+          "stop_name": "47th (Red)",
+          "stop_desc": "",
+          "stop_lat": 41.810318,
+          "stop_lon": -87.63094,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "RED",
+          "route": "Red",
+          "train": "red",
+          "color": "#ff0000"
+      }
+  },
+  {
+      "index": 24,
+      "number": 129,
+      "color": "RED",
+      "id": "41300",
+      "on": false,
+      "stopIDs": [
+          30252,
+          30251
+      ],
+      "station": {
+          "stop_id": 41300,
+          "stop_code": null,
+          "stop_name": "Loyola",
+          "stop_desc": "",
+          "stop_lat": 42.001073,
+          "stop_lon": -87.661061,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "RED",
+          "route": "Red",
+          "train": "red",
+          "color": "#ff0000"
+      }
+  },
+  {
+      "index": 25,
+      "number": 118,
+      "color": "RED",
+      "id": "41320",
+      "on": false,
+      "stopIDs": [
+          30255,
+          30256
+      ],
+      "station": {
+          "stop_id": 41320,
+          "stop_code": null,
+          "stop_name": "Belmont (Red/Brown/Purple)",
+          "stop_desc": "",
+          "stop_lat": 41.939751,
+          "stop_lon": -87.65338,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "RED",
+          "route": "Red",
+          "train": "red",
+          "color": "#ff0000"
+      }
+  },
+  {
+      "index": 26,
+      "number": 126,
+      "color": "RED",
+      "id": "41380",
+      "on": false,
+      "stopIDs": [
+          30267,
+          30268
+      ],
+      "station": {
+          "stop_id": 41380,
+          "stop_code": null,
+          "stop_name": "Bryn Mawr",
+          "stop_desc": "",
+          "stop_lat": 41.983504,
+          "stop_lon": -87.65884,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 0
+      },
+      "line": {
+          "name": "RED",
+          "route": "Red",
+          "train": "red",
+          "color": "#ff0000"
+      }
+  },
+  {
+      "index": 27,
+      "number": 30,
+      "color": "RED",
+      "id": "41400",
+      "on": false,
+      "stopIDs": [
+          30270,
+          30269
+      ],
+      "station": {
+          "stop_id": 41400,
+          "stop_code": null,
+          "stop_name": "Roosevelt",
+          "stop_desc": "",
+          "stop_lat": 41.8673785311,
+          "stop_lon": -87.6270314058,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "RED",
+          "route": "Red",
+          "train": "red",
+          "color": "#ff0000"
+      }
+  },
+  {
+      "index": 28,
+      "number": 119,
+      "color": "RED",
+      "id": "41420",
+      "on": false,
+      "stopIDs": [
+          30273,
+          30274
+      ],
+      "station": {
+          "stop_id": 41420,
+          "stop_code": null,
+          "stop_name": "Addison (Red)",
+          "stop_desc": "",
+          "stop_lat": 41.947316173,
+          "stop_lon": -87.6536241013,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "RED",
+          "route": "Red",
+          "train": "red",
+          "color": "#ff0000"
+      }
+  },
+  {
+      "index": 29,
+      "number": 2,
+      "color": "RED",
+      "id": "41430",
+      "on": false,
+      "stopIDs": [
+          30276,
+          30275
+      ],
+      "station": {
+          "stop_id": 41430,
+          "stop_code": null,
+          "stop_name": "87th",
+          "stop_desc": "",
+          "stop_lat": 41.735372,
+          "stop_lon": -87.624717,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "RED",
+          "route": "Red",
+          "train": "red",
+          "color": "#ff0000"
+      }
+  },
+  {
+      "index": 30,
+      "number": 108,
+      "color": "RED",
+      "id": "41450",
+      "on": false,
+      "stopIDs": [
+          30279,
+          30280
+      ],
+      "station": {
+          "stop_id": 41450,
+          "stop_code": null,
+          "stop_name": "Chicago (Red)",
+          "stop_desc": "",
+          "stop_lat": 41.896671,
+          "stop_lon": -87.628176,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "RED",
+          "route": "Red",
+          "train": "red",
+          "color": "#ff0000"
+      }
+  },
+  {
+      "index": 31,
+      "number": 31,
+      "color": "RED",
+      "id": "41490",
+      "on": false,
+      "stopIDs": [
+          30286,
+          30285
+      ],
+      "station": {
+          "stop_id": 41490,
+          "stop_code": null,
+          "stop_name": "Harrison",
+          "stop_desc": "",
+          "stop_lat": 41.874039,
+          "stop_lon": -87.627479,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 0
+      },
+      "line": {
+          "name": "RED",
+          "route": "Red",
+          "train": "red",
+          "color": "#ff0000"
+      }
+  },
+  {
+      "index": 32,
+      "number": 185,
+      "color": "RED",
+      "id": "41660",
+      "on": false,
+      "stopIDs": [
+          30289,
+          30290
+      ],
+      "station": {
+          "stop_id": 41660,
+          "stop_code": null,
+          "stop_name": "Lake (Subway)",
+          "stop_desc": "",
+          "stop_lat": 41.884809,
+          "stop_lon": -87.627813,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "RED",
+          "route": "Red",
+          "train": "red",
+          "color": "#ff0000"
+      }
+  },
+  {
+      "index": 33,
+      "number": 49,
+      "color": "BLUE",
+      "id": "40010",
+      "on": false,
+      "stopIDs": [
+          30002,
+          30001
+      ],
+      "station": {
+          "stop_id": 40010,
+          "stop_code": null,
+          "stop_name": "Austin (Blue)",
+          "stop_desc": "",
+          "stop_lat": 41.870851,
+          "stop_lon": -87.776812,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 0
+      },
+      "line": {
+          "name": "BLUE",
+          "route": "Blue",
+          "train": "blue",
+          "color": "#2255ff"
+      }
+  },
+  {
+      "index": 34,
+      "number": 79,
+      "color": "BLUE",
+      "id": "40060",
+      "on": false,
+      "stopIDs": [
+          30013,
+          30012
+      ],
+      "station": {
+          "stop_id": 40060,
+          "stop_code": null,
+          "stop_name": "Belmont (Blue)",
+          "stop_desc": "",
+          "stop_lat": 41.9391107041,
+          "stop_lon": -87.71225212,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 0
+      },
+      "line": {
+          "name": "BLUE",
+          "route": "Blue",
+          "train": "blue",
+          "color": "#2255ff"
+      }
+  },
+  {
+      "index": 35,
+      "number": 156,
+      "color": "BLUE",
+      "id": "40070",
+      "on": false,
+      "stopIDs": [
+          30015,
+          30014
+      ],
+      "station": {
+          "stop_id": 40070,
+          "stop_code": null,
+          "stop_name": "Jackson (Blue)",
+          "stop_desc": "",
+          "stop_lat": 41.878183,
+          "stop_lon": -87.629296,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "BLUE",
+          "route": "Blue",
+          "train": "blue",
+          "color": "#2255ff"
+      }
+  },
+  {
+      "index": 36,
+      "number": 48,
+      "color": "BLUE",
+      "id": "40180",
+      "on": false,
+      "stopIDs": [
+          30035,
+          30034
+      ],
+      "station": {
+          "stop_id": 40180,
+          "stop_code": null,
+          "stop_name": "Oak Park (Blue)",
+          "stop_desc": "",
+          "stop_lat": 41.872108,
+          "stop_lon": -87.791602,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 0
+      },
+      "line": {
+          "name": "BLUE",
+          "route": "Blue",
+          "train": "blue",
+          "color": "#2255ff"
+      }
+  },
+  {
+      "index": 37,
+      "number": 53,
+      "color": "BLUE",
+      "id": "40220",
+      "on": false,
+      "stopIDs": [
+          30043,
+          30042
+      ],
+      "station": {
+          "stop_id": 40220,
+          "stop_code": null,
+          "stop_name": "Western (Blue - Forest Park Branch)",
+          "stop_desc": "",
+          "stop_lat": 41.875478,
+          "stop_lon": -87.688436,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 0
+      },
+      "line": {
+          "name": "BLUE",
+          "route": "Blue",
+          "train": "blue",
+          "color": "#2255ff"
+      }
+  },
+  {
+      "index": 38,
+      "number": 84,
+      "color": "BLUE",
+      "id": "40230",
+      "on": false,
+      "stopIDs": [
+          30045,
+          30044
+      ],
+      "station": {
+          "stop_id": 40230,
+          "stop_code": null,
+          "stop_name": "Cumberland",
+          "stop_desc": "",
+          "stop_lat": 41.984246,
+          "stop_lon": -87.838028,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "BLUE",
+          "route": "Blue",
+          "train": "blue",
+          "color": "#2255ff"
+      }
+  },
+  {
+      "index": 39,
+      "number": 52,
+      "color": "BLUE",
+      "id": "40250",
+      "on": false,
+      "stopIDs": [
+          30048,
+          30049
+      ],
+      "station": {
+          "stop_id": 40250,
+          "stop_code": null,
+          "stop_name": "Kedzie-Homan",
+          "stop_desc": "",
+          "stop_lat": 41.874341,
+          "stop_lon": -87.70604,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "BLUE",
+          "route": "Blue",
+          "train": "blue",
+          "color": "#2255ff"
+      }
+  },
+  {
+      "index": 40,
+      "number": 74,
+      "color": "BLUE",
+      "id": "40320",
+      "on": false,
+      "stopIDs": [
+          30062,
+          30063
+      ],
+      "station": {
+          "stop_id": 40320,
+          "stop_code": null,
+          "stop_name": "Division",
+          "stop_desc": "",
+          "stop_lat": 41.903355,
+          "stop_lon": -87.666496,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 0
+      },
+      "line": {
+          "name": "BLUE",
+          "route": "Blue",
+          "train": "blue",
+          "color": "#2255ff"
+      }
+  },
+  {
+      "index": 41,
+      "number": 33,
+      "color": "BLUE",
+      "id": "40350",
+      "on": false,
+      "stopIDs": [
+          30068,
+          30069
+      ],
+      "station": {
+          "stop_id": 40350,
+          "stop_code": null,
+          "stop_name": "UIC-Halsted",
+          "stop_desc": "",
+          "stop_lat": 41.875474,
+          "stop_lon": -87.649707,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "BLUE",
+          "route": "Blue",
+          "train": "blue",
+          "color": "#2255ff"
+      }
+  },
+  {
+      "index": 42,
+      "number": 184,
+      "color": "BLUE",
+      "id": "40370",
+      "on": false,
+      "stopIDs": [
+          30073,
+          30072
+      ],
+      "station": {
+          "stop_id": 40370,
+          "stop_code": null,
+          "stop_name": "Washington",
+          "stop_desc": "",
+          "stop_lat": 41.883164,
+          "stop_lon": -87.62944,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 0
+      },
+      "line": {
+          "name": "BLUE",
+          "route": "Blue",
+          "train": "blue",
+          "color": "#2255ff"
+      }
+  },
+  {
+      "index": 43,
+      "number": 171,
+      "color": "BLUE",
+      "id": "40380",
+      "on": false,
+      "stopIDs": [
+          30374,
+          30375
+      ],
+      "station": {
+          "stop_id": 40380,
+          "stop_code": null,
+          "stop_name": "Clark/Lake",
+          "stop_desc": "",
+          "stop_lat": 41.885737,
+          "stop_lon": -87.630886,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "BLUE",
+          "route": "Blue",
+          "train": "blue",
+          "color": "#2255ff"
+      }
+  },
+  {
+      "index": 44,
+      "number": 46,
+      "color": "BLUE",
+      "id": "40390",
+      "on": false,
+      "stopIDs": [
+          30076,
+          30077
+      ],
+      "station": {
+          "stop_id": 40390,
+          "stop_code": null,
+          "stop_name": "Forest Park",
+          "stop_desc": "",
+          "stop_lat": 41.874257,
+          "stop_lon": -87.817318,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "BLUE",
+          "route": "Blue",
+          "train": "blue",
+          "color": "#2255ff"
+      }
+  },
+  {
+      "index": 45,
+      "number": 32,
+      "color": "BLUE",
+      "id": "40430",
+      "on": false,
+      "stopIDs": [
+          30085,
+          30084
+      ],
+      "station": {
+          "stop_id": 40430,
+          "stop_code": null,
+          "stop_name": "Clinton (Blue)",
+          "stop_desc": "",
+          "stop_lat": 41.875539,
+          "stop_lon": -87.640984,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 0
+      },
+      "line": {
+          "name": "BLUE",
+          "route": "Blue",
+          "train": "blue",
+          "color": "#2255ff"
+      }
+  },
+  {
+      "index": 46,
+      "number": 34,
+      "color": "BLUE",
+      "id": "40470",
+      "on": false,
+      "stopIDs": [
+          30093,
+          30092
+      ],
+      "station": {
+          "stop_id": 40470,
+          "stop_code": null,
+          "stop_name": "Racine",
+          "stop_desc": "",
+          "stop_lat": 41.87592,
+          "stop_lon": -87.659458,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 0
+      },
+      "line": {
+          "name": "BLUE",
+          "route": "Blue",
+          "train": "blue",
+          "color": "#2255ff"
+      }
+  },
+  {
+      "index": 47,
+      "number": 72,
+      "color": "BLUE",
+      "id": "40490",
+      "on": false,
+      "stopIDs": [
+          30096,
+          30095
+      ],
+      "station": {
+          "stop_id": 40490,
+          "stop_code": null,
+          "stop_name": "Grand (Blue)",
+          "stop_desc": "",
+          "stop_lat": 41.891189,
+          "stop_lon": -87.647578,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 0
+      },
+      "line": {
+          "name": "BLUE",
+          "route": "Blue",
+          "train": "blue",
+          "color": "#2255ff"
+      }
+  },
+  {
+      "index": 48,
+      "number": 81,
+      "color": "BLUE",
+      "id": "40550",
+      "on": false,
+      "stopIDs": [
+          30108,
+          30107
+      ],
+      "station": {
+          "stop_id": 40550,
+          "stop_code": null,
+          "stop_name": "Irving Park (Blue)",
+          "stop_desc": "",
+          "stop_lat": 41.952925,
+          "stop_lon": -87.729229,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 0
+      },
+      "line": {
+          "name": "BLUE",
+          "route": "Blue",
+          "train": "blue",
+          "color": "#2255ff"
+      }
+  },
+  {
+      "index": 49,
+      "number": 77,
+      "color": "BLUE",
+      "id": "40570",
+      "on": false,
+      "stopIDs": [
+          30111,
+          30112
+      ],
+      "station": {
+          "stop_id": 40570,
+          "stop_code": null,
+          "stop_name": "California (Blue)",
+          "stop_desc": "",
+          "stop_lat": 41.9221583097,
+          "stop_lon": -87.6972439537,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 0
+      },
+      "line": {
+          "name": "BLUE",
+          "route": "Blue",
+          "train": "blue",
+          "color": "#2255ff"
+      }
+  },
+  {
+      "index": 50,
+      "number": 75,
+      "color": "BLUE",
+      "id": "40590",
+      "on": false,
+      "stopIDs": [
+          30115,
+          30116
+      ],
+      "station": {
+          "stop_id": 40590,
+          "stop_code": null,
+          "stop_name": "Damen (Blue)",
+          "stop_desc": "",
+          "stop_lat": 41.9098452343,
+          "stop_lon": -87.6775400139,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 0
+      },
+      "line": {
+          "name": "BLUE",
+          "route": "Blue",
+          "train": "blue",
+          "color": "#2255ff"
+      }
+  },
+  {
+      "index": 51,
+      "number": 76,
+      "color": "BLUE",
+      "id": "40670",
+      "on": false,
+      "stopIDs": [
+          30129,
+          30130
+      ],
+      "station": {
+          "stop_id": 40670,
+          "stop_code": null,
+          "stop_name": "Western (Blue - O'Hare Branch)",
+          "stop_desc": "",
+          "stop_lat": 41.916157,
+          "stop_lon": -87.687364,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "BLUE",
+          "route": "Blue",
+          "train": "blue",
+          "color": "#2255ff"
+      }
+  },
+  {
+      "index": 52,
+      "number": 87,
+      "color": "BLUE",
+      "id": "40750",
+      "on": false,
+      "stopIDs": [
+          30145,
+          30146
+      ],
+      "station": {
+          "stop_id": 40750,
+          "stop_code": null,
+          "stop_name": "Harlem (Blue - O'Hare Branch)",
+          "stop_desc": "",
+          "stop_lat": 41.98227,
+          "stop_lon": -87.8089,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "BLUE",
+          "route": "Blue",
+          "train": "blue",
+          "color": "#2255ff"
+      }
+  },
+  {
+      "index": 53,
+      "number": 166,
+      "color": "BLUE",
+      "id": "40790",
+      "on": false,
+      "stopIDs": [
+          30153,
+          30154
+      ],
+      "station": {
+          "stop_id": 40790,
+          "stop_code": null,
+          "stop_name": "Monroe (Blue)",
+          "stop_desc": "",
+          "stop_lat": 41.880703,
+          "stop_lon": -87.629378,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 0
+      },
+      "line": {
+          "name": "BLUE",
+          "route": "Blue",
+          "train": "blue",
+          "color": "#2255ff"
+      }
+  },
+  {
+      "index": 54,
+      "number": 54,
+      "color": "BLUE",
+      "id": "40810",
+      "on": false,
+      "stopIDs": [
+          30157,
+          30158
+      ],
+      "station": {
+          "stop_id": 40810,
+          "stop_code": null,
+          "stop_name": "Illinois Medical District",
+          "stop_desc": "",
+          "stop_lat": 41.875706,
+          "stop_lon": -87.673932,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "BLUE",
+          "route": "Blue",
+          "train": "blue",
+          "color": "#2255ff"
+      }
+  },
+  {
+      "index": 55,
+      "number": 86,
+      "color": "BLUE",
+      "id": "40820",
+      "on": false,
+      "stopIDs": [
+          30160,
+          30159
+      ],
+      "station": {
+          "stop_id": 40820,
+          "stop_code": null,
+          "stop_name": "Rosemont",
+          "stop_desc": "",
+          "stop_lat": 41.983507,
+          "stop_lon": -87.859388,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "BLUE",
+          "route": "Blue",
+          "train": "blue",
+          "color": "#2255ff"
+      }
+  },
+  {
+      "index": 56,
+      "number": 85,
+      "color": "BLUE",
+      "id": "40890",
+      "on": false,
+      "stopIDs": [
+          30172,
+          30171
+      ],
+      "station": {
+          "stop_id": 40890,
+          "stop_code": null,
+          "stop_name": "O'Hare",
+          "stop_desc": "",
+          "stop_lat": 41.97766526,
+          "stop_lon": -87.90422307,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "BLUE",
+          "route": "Blue",
+          "train": "blue",
+          "color": "#2255ff"
+      }
+  },
+  {
+      "index": 57,
+      "number": 51,
+      "color": "BLUE",
+      "id": "40920",
+      "on": false,
+      "stopIDs": [
+          30180,
+          30179
+      ],
+      "station": {
+          "stop_id": 40920,
+          "stop_code": null,
+          "stop_name": "Pulaski (Blue)",
+          "stop_desc": "",
+          "stop_lat": 41.873797,
+          "stop_lon": -87.725663,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 0
+      },
+      "line": {
+          "name": "BLUE",
+          "route": "Blue",
+          "train": "blue",
+          "color": "#2255ff"
+      }
+  },
+  {
+      "index": 58,
+      "number": 50,
+      "color": "BLUE",
+      "id": "40970",
+      "on": false,
+      "stopIDs": [
+          30188,
+          30187
+      ],
+      "station": {
+          "stop_id": 40970,
+          "stop_code": null,
+          "stop_name": "Cicero (Blue)",
+          "stop_desc": "",
+          "stop_lat": 41.871574,
+          "stop_lon": -87.745154,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 0
+      },
+      "line": {
+          "name": "BLUE",
+          "route": "Blue",
+          "train": "blue",
+          "color": "#2255ff"
+      }
+  },
+  {
+      "index": 59,
+      "number": 47,
+      "color": "BLUE",
+      "id": "40980",
+      "on": false,
+      "stopIDs": [
+          30190,
+          30189
+      ],
+      "station": {
+          "stop_id": 40980,
+          "stop_code": null,
+          "stop_name": "Harlem (Blue - Forest Park Branch)",
+          "stop_desc": "",
+          "stop_lat": 41.87349,
+          "stop_lon": -87.806961,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 0
+      },
+      "line": {
+          "name": "BLUE",
+          "route": "Blue",
+          "train": "blue",
+          "color": "#2255ff"
+      }
+  },
+  {
+      "index": 60,
+      "number": 78,
+      "color": "BLUE",
+      "id": "41020",
+      "on": false,
+      "stopIDs": [
+          30197,
+          30198
+      ],
+      "station": {
+          "stop_id": 41020,
+          "stop_code": null,
+          "stop_name": "Logan Square",
+          "stop_desc": "",
+          "stop_lat": 41.9295342259,
+          "stop_lon": -87.7076881549,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "BLUE",
+          "route": "Blue",
+          "train": "blue",
+          "color": "#2255ff"
+      }
+  },
+  {
+      "index": 61,
+      "number": 80,
+      "color": "BLUE",
+      "id": "41240",
+      "on": false,
+      "stopIDs": [
+          30240,
+          30239
+      ],
+      "station": {
+          "stop_id": 41240,
+          "stop_code": null,
+          "stop_name": "Addison (Blue)",
+          "stop_desc": "",
+          "stop_lat": 41.9466037164,
+          "stop_lon": -87.7184584172,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "BLUE",
+          "route": "Blue",
+          "train": "blue",
+          "color": "#2255ff"
+      }
+  },
+  {
+      "index": 62,
+      "number": 83,
+      "color": "BLUE",
+      "id": "41280",
+      "on": false,
+      "stopIDs": [
+          30248,
+          30247
+      ],
+      "station": {
+          "stop_id": 41280,
+          "stop_code": null,
+          "stop_name": "Jefferson Park Transit Center",
+          "stop_desc": "",
+          "stop_lat": 41.9702338623,
+          "stop_lon": -87.7615940115,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "BLUE",
+          "route": "Blue",
+          "train": "blue",
+          "color": "#2255ff"
+      }
+  },
+  {
+      "index": 63,
+      "number": 82,
+      "color": "BLUE",
+      "id": "41330",
+      "on": false,
+      "stopIDs": [
+          30260,
+          30259
+      ],
+      "station": {
+          "stop_id": 41330,
+          "stop_code": null,
+          "stop_name": "Montrose (Blue)",
+          "stop_desc": "",
+          "stop_lat": 41.9609010454,
+          "stop_lon": -87.7429034362,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 0
+      },
+      "line": {
+          "name": "BLUE",
+          "route": "Blue",
+          "train": "blue",
+          "color": "#2255ff"
+      }
+  },
+  {
+      "index": 64,
+      "number": 157,
+      "color": "BLUE",
+      "id": "41340",
+      "on": false,
+      "stopIDs": [
+          30262,
+          30261
+      ],
+      "station": {
+          "stop_id": 41340,
+          "stop_code": null,
+          "stop_name": "LaSalle",
+          "stop_desc": "",
+          "stop_lat": 41.875568,
+          "stop_lon": -87.631722,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 0
+      },
+      "line": {
+          "name": "BLUE",
+          "route": "Blue",
+          "train": "blue",
+          "color": "#2255ff"
+      }
+  },
+  {
+      "index": 65,
+      "number": 73,
+      "color": "BLUE",
+      "id": "41410",
+      "on": false,
+      "stopIDs": [
+          30272,
+          30271
+      ],
+      "station": {
+          "stop_id": 41410,
+          "stop_code": null,
+          "stop_name": "Chicago (Blue)",
+          "stop_desc": "",
+          "stop_lat": 41.896075,
+          "stop_lon": -87.655214,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 0
+      },
+      "line": {
+          "name": "BLUE",
+          "route": "Blue",
+          "train": "blue",
+          "color": "#2255ff"
+      }
+  },
+  {
+      "index": 66,
+      "number": 66,
+      "color": "G",
+      "id": "40020",
+      "on": false,
+      "stopIDs": [
+          30003,
+          30004
+      ],
+      "station": {
+          "stop_id": 40020,
+          "stop_code": null,
+          "stop_name": "Harlem/Lake",
+          "stop_desc": "",
+          "stop_lat": 41.886848,
+          "stop_lon": -87.803176,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "G",
+          "route": "G",
+          "train": "g",
+          "color": "#009900"
+      }
+  },
+  {
+      "index": 67,
+      "number": 62,
+      "color": "G",
+      "id": "40030",
+      "on": false,
+      "stopIDs": [
+          30005,
+          30006
+      ],
+      "station": {
+          "stop_id": 40030,
+          "stop_code": null,
+          "stop_name": "Pulaski (Green)",
+          "stop_desc": "",
+          "stop_lat": 41.885412,
+          "stop_lon": -87.725404,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "G",
+          "route": "G",
+          "train": "g",
+          "color": "#009900"
+      }
+  },
+  {
+      "index": 68,
+      "number": 22,
+      "color": "G",
+      "id": "40130",
+      "on": false,
+      "stopIDs": [
+          30025,
+          30024
+      ],
+      "station": {
+          "stop_id": 40130,
+          "stop_code": null,
+          "stop_name": "51st",
+          "stop_desc": "",
+          "stop_lat": 41.80209,
+          "stop_lon": -87.618487,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "G",
+          "route": "G",
+          "train": "g",
+          "color": "#009900"
+      }
+  },
+  {
+      "index": 69,
+      "number": 60,
+      "color": "G",
+      "id": "40170",
+      "on": false,
+      "stopIDs": [
+          30032,
+          30033
+      ],
+      "station": {
+          "stop_id": 40170,
+          "stop_code": null,
+          "stop_name": "Ashland (Green/Pink)",
+          "stop_desc": "",
+          "stop_lat": 41.885269,
+          "stop_lon": -87.666969,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "G",
+          "route": "G",
+          "train": "g",
+          "color": "#009900"
+      }
+  },
+  {
+      "index": 70,
+      "number": 182,
+      "color": "G",
+      "id": "40260",
+      "on": false,
+      "stopIDs": [
+          30051,
+          30050
+      ],
+      "station": {
+          "stop_id": 40260,
+          "stop_code": null,
+          "stop_name": "State/Lake (Loop 'L')",
+          "stop_desc": "",
+          "stop_lat": 41.88574,
+          "stop_lon": -87.627835,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 0
+      },
+      "line": {
+          "name": "G",
+          "route": "G",
+          "train": "g",
+          "color": "#009900"
+      }
+  },
+  {
+      "index": 71,
+      "number": 68,
+      "color": "G",
+      "id": "40280",
+      "on": false,
+      "stopIDs": [
+          30055,
+          30054
+      ],
+      "station": {
+          "stop_id": 40280,
+          "stop_code": null,
+          "stop_name": "Central (Green)",
+          "stop_desc": "",
+          "stop_lat": 41.887389,
+          "stop_lon": -87.76565,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "G",
+          "route": "G",
+          "train": "g",
+          "color": "#009900"
+      }
+  },
+  {
+      "index": 72,
+      "number": 7,
+      "color": "G",
+      "id": "40290",
+      "on": false,
+      "stopIDs": [
+          30057,
+          30056
+      ],
+      "station": {
+          "stop_id": 40290,
+          "stop_code": null,
+          "stop_name": "Ashland/63rd",
+          "stop_desc": "",
+          "stop_lat": 41.77886,
+          "stop_lon": -87.663766,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "G",
+          "route": "G",
+          "train": "g",
+          "color": "#009900"
+      }
+  },
+  {
+      "index": 73,
+      "number": 25,
+      "color": "G",
+      "id": "40300",
+      "on": false,
+      "stopIDs": [
+          30058,
+          30059
+      ],
+      "station": {
+          "stop_id": 40300,
+          "stop_code": null,
+          "stop_name": "Indiana",
+          "stop_desc": "",
+          "stop_lat": 41.821732,
+          "stop_lon": -87.621371,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "G",
+          "route": "G",
+          "train": "g",
+          "color": "#009900"
+      }
+  },
+  {
+      "index": 74,
+      "number": 173,
+      "color": "G",
+      "id": "40380",
+      "on": false,
+      "stopIDs": [
+          30074,
+          30075
+      ],
+      "station": {
+          "stop_id": 40380,
+          "stop_code": null,
+          "stop_name": "Clark/Lake",
+          "stop_desc": "",
+          "stop_lat": 41.885737,
+          "stop_lon": -87.630886,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "G",
+          "route": "G",
+          "train": "g",
+          "color": "#009900"
+      }
+  },
+  {
+      "index": 75,
+      "number": 69,
+      "color": "G",
+      "id": "40480",
+      "on": false,
+      "stopIDs": [
+          30094,
+          30009
+      ],
+      "station": {
+          "stop_id": 40480,
+          "stop_code": null,
+          "stop_name": "Cicero (Green)",
+          "stop_desc": "",
+          "stop_lat": 41.886519,
+          "stop_lon": -87.744698,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "G",
+          "route": "G",
+          "train": "g",
+          "color": "#009900"
+      }
+  },
+  {
+      "index": 76,
+      "number": 21,
+      "color": "G",
+      "id": "40510",
+      "on": false,
+      "stopIDs": [
+          30100,
+          30099
+      ],
+      "station": {
+          "stop_id": 40510,
+          "stop_code": null,
+          "stop_name": "Garfield (Green)",
+          "stop_desc": "",
+          "stop_lat": 41.795172,
+          "stop_lon": -87.618327,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "G",
+          "route": "G",
+          "train": "g",
+          "color": "#009900"
+      }
+  },
+  {
+      "index": 77,
+      "number": 67,
+      "color": "G",
+      "id": "40610",
+      "on": false,
+      "stopIDs": [
+          30119,
+          30120
+      ],
+      "station": {
+          "stop_id": 40610,
+          "stop_code": null,
+          "stop_name": "Ridgeland",
+          "stop_desc": "",
+          "stop_lat": 41.887159,
+          "stop_lon": -87.783661,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 0
+      },
+      "line": {
+          "name": "G",
+          "route": "G",
+          "train": "g",
+          "color": "#009900"
+      }
+  },
+  {
+      "index": 78,
+      "number": 193,
+      "color": "G",
+      "id": "40680",
+      "on": false,
+      "stopIDs": [
+          30131,
+          30132
+      ],
+      "station": {
+          "stop_id": 40680,
+          "stop_code": null,
+          "stop_name": "Adams/Wabash",
+          "stop_desc": "",
+          "stop_lat": 41.879507,
+          "stop_lon": -87.626037,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 0
+      },
+      "line": {
+          "name": "G",
+          "route": "G",
+          "train": "g",
+          "color": "#009900"
+      }
+  },
+  {
+      "index": 79,
+      "number": 63,
+      "color": "G",
+      "id": "40700",
+      "on": false,
+      "stopIDs": [
+          30136,
+          30135
+      ],
+      "station": {
+          "stop_id": 40700,
+          "stop_code": null,
+          "stop_name": "Laramie",
+          "stop_desc": "",
+          "stop_lat": 41.887163,
+          "stop_lon": -87.754986,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "G",
+          "route": "G",
+          "train": "g",
+          "color": "#009900"
+      }
+  },
+  {
+      "index": 80,
+      "number": 20,
+      "color": "G",
+      "id": "40720",
+      "on": false,
+      "stopIDs": [
+          30140,
+          30139
+      ],
+      "station": {
+          "stop_id": 40720,
+          "stop_code": null,
+          "stop_name": "Cottage Grove",
+          "stop_desc": "",
+          "stop_lat": 41.780309,
+          "stop_lon": -87.605857,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "G",
+          "route": "G",
+          "train": "g",
+          "color": "#009900"
+      }
+  },
+  {
+      "index": 81,
+      "number": 6,
+      "color": "G",
+      "id": "40940",
+      "on": false,
+      "stopIDs": [
+          30184,
+          30183
+      ],
+      "station": {
+          "stop_id": 40940,
+          "stop_code": null,
+          "stop_name": "Halsted (Green)",
+          "stop_desc": "",
+          "stop_lat": 41.778943,
+          "stop_lon": -87.644244,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "G",
+          "route": "G",
+          "train": "g",
+          "color": "#009900"
+      }
+  },
+  {
+      "index": 82,
+      "number": 61,
+      "color": "G",
+      "id": "41070",
+      "on": false,
+      "stopIDs": [
+          30207,
+          30208
+      ],
+      "station": {
+          "stop_id": 41070,
+          "stop_code": null,
+          "stop_name": "Kedzie (Green)",
+          "stop_desc": "",
+          "stop_lat": 41.884321,
+          "stop_lon": -87.706155,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "G",
+          "route": "G",
+          "train": "g",
+          "color": "#009900"
+      }
+  },
+  {
+      "index": 83,
+      "number": 23,
+      "color": "G",
+      "id": "41080",
+      "on": false,
+      "stopIDs": [
+          30210,
+          30209
+      ],
+      "station": {
+          "stop_id": 41080,
+          "stop_code": null,
+          "stop_name": "47th (Green)",
+          "stop_desc": "",
+          "stop_lat": 41.809209,
+          "stop_lon": -87.618826,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "G",
+          "route": "G",
+          "train": "g",
+          "color": "#009900"
+      }
+  },
+  {
+      "index": 84,
+      "number": 26,
+      "color": "G",
+      "id": "41120",
+      "on": false,
+      "stopIDs": [
+          30213,
+          30214
+      ],
+      "station": {
+          "stop_id": 41120,
+          "stop_code": null,
+          "stop_name": "35th-Bronzeville-IIT",
+          "stop_desc": "",
+          "stop_lat": 41.831677,
+          "stop_lon": -87.625826,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "G",
+          "route": "G",
+          "train": "g",
+          "color": "#009900"
+      }
+  },
+  {
+      "index": 85,
+      "number": 19,
+      "color": "G",
+      "id": "41140",
+      "on": false,
+      "stopIDs": [
+          30217,
+          30218
+      ],
+      "station": {
+          "stop_id": 41140,
+          "stop_code": null,
+          "stop_name": "King Drive",
+          "stop_desc": "",
+          "stop_lat": 41.78013,
+          "stop_lon": -87.615546,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "G",
+          "route": "G",
+          "train": "g",
+          "color": "#009900"
+      }
+  },
+  {
+      "index": 86,
+      "number": 58,
+      "color": "G",
+      "id": "41160",
+      "on": false,
+      "stopIDs": [
+          30222,
+          30221
+      ],
+      "station": {
+          "stop_id": 41160,
+          "stop_code": null,
+          "stop_name": "Clinton (Green/Pink)",
+          "stop_desc": "",
+          "stop_lat": 41.885678,
+          "stop_lon": -87.641782,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "G",
+          "route": "G",
+          "train": "g",
+          "color": "#009900"
+      }
+  },
+  {
+      "index": 87,
+      "number": 64,
+      "color": "G",
+      "id": "41260",
+      "on": false,
+      "stopIDs": [
+          30243,
+          30244
+      ],
+      "station": {
+          "stop_id": 41260,
+          "stop_code": null,
+          "stop_name": "Austin (Green)",
+          "stop_desc": "",
+          "stop_lat": 41.887293,
+          "stop_lon": -87.774135,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 0
+      },
+      "line": {
+          "name": "G",
+          "route": "G",
+          "train": "g",
+          "color": "#009900"
+      }
+  },
+  {
+      "index": 88,
+      "number": 24,
+      "color": "G",
+      "id": "41270",
+      "on": false,
+      "stopIDs": [
+          30245,
+          30246
+      ],
+      "station": {
+          "stop_id": 41270,
+          "stop_code": null,
+          "stop_name": "43rd",
+          "stop_desc": "",
+          "stop_lat": 41.816462,
+          "stop_lon": -87.619021,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "G",
+          "route": "G",
+          "train": "g",
+          "color": "#009900"
+      }
+  },
+  {
+      "index": 89,
+      "number": 65,
+      "color": "G",
+      "id": "41350",
+      "on": false,
+      "stopIDs": [
+          30263,
+          30264
+      ],
+      "station": {
+          "stop_id": 41350,
+          "stop_code": null,
+          "stop_name": "Oak Park (Green)",
+          "stop_desc": "",
+          "stop_lat": 41.886988,
+          "stop_lon": -87.793783,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 0
+      },
+      "line": {
+          "name": "G",
+          "route": "G",
+          "train": "g",
+          "color": "#009900"
+      }
+  },
+  {
+      "index": 90,
+      "number": 71,
+      "color": "G",
+      "id": "41360",
+      "on": false,
+      "stopIDs": [
+          30265,
+          30266
+      ],
+      "station": {
+          "stop_id": 41360,
+          "stop_code": null,
+          "stop_name": "California (Green)",
+          "stop_desc": "",
+          "stop_lat": 41.88422,
+          "stop_lon": -87.696234,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "G",
+          "route": "G",
+          "train": "g",
+          "color": "#009900"
+      }
+  },
+  {
+      "index": 91,
+      "number": 29,
+      "color": "G",
+      "id": "41400",
+      "on": false,
+      "stopIDs": [
+          30081,
+          30080
+      ],
+      "station": {
+          "stop_id": 41400,
+          "stop_code": null,
+          "stop_name": "Roosevelt",
+          "stop_desc": "",
+          "stop_lat": 41.8673785311,
+          "stop_lon": -87.6270314058,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "G",
+          "route": "G",
+          "train": "g",
+          "color": "#009900"
+      }
+  },
+  {
+      "index": 92,
+      "number": 59,
+      "color": "G",
+      "id": "41510",
+      "on": false,
+      "stopIDs": [
+          30295,
+          30296
+      ],
+      "station": {
+          "stop_id": 41510,
+          "stop_code": null,
+          "stop_name": "Morgan (Green/Pink)",
+          "stop_desc": "",
+          "stop_lat": 41.88557676,
+          "stop_lon": -87.65212993,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "G",
+          "route": "G",
+          "train": "g",
+          "color": "#009900"
+      }
+  },
+  {
+      "index": 93,
+      "number": 70,
+      "color": "G",
+      "id": "41670",
+      "on": false,
+      "stopIDs": [
+          30291,
+          30292
+      ],
+      "station": {
+          "stop_id": 41670,
+          "stop_code": null,
+          "stop_name": "Conservatory-Central Park Drive",
+          "stop_desc": "",
+          "stop_lat": 41.884904,
+          "stop_lon": -87.716523,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "G",
+          "route": "G",
+          "train": "g",
+          "color": "#009900"
+      }
+  },
+  {
+      "index": 94,
+      "number": 27,
+      "color": "G",
+      "id": "41690",
+      "on": false,
+      "stopIDs": [
+          30382,
+          30381
+      ],
+      "station": {
+          "stop_id": 41690,
+          "stop_code": null,
+          "stop_name": "Cermak-McCormick Place",
+          "stop_desc": "",
+          "stop_lat": 41.853115,
+          "stop_lon": -87.626402,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "G",
+          "route": "G",
+          "train": "g",
+          "color": "#009900"
+      }
+  },
+  {
+      "index": 95,
+      "number": 189,
+      "color": "G",
+      "id": "41700",
+      "on": false,
+      "stopIDs": [
+          30384,
+          30383
+      ],
+      "station": {
+          "stop_id": 41700,
+          "stop_code": null,
+          "stop_name": "Washington/Wabash",
+          "stop_desc": "",
+          "stop_lat": 41.88322,
+          "stop_lon": -87.626189,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "G",
+          "route": "G",
+          "train": "g",
+          "color": "#009900"
+      }
+  },
+  {
+      "index": 96,
+      "number": 162,
+      "color": "BRN",
+      "id": "40040",
+      "on": false,
+      "stopIDs": [
+          30008
+      ],
+      "station": {
+          "stop_id": 40040,
+          "stop_code": null,
+          "stop_name": "Quincy",
+          "stop_desc": "",
+          "stop_lat": 41.878723,
+          "stop_lon": -87.63374,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "BRN",
+          "route": "Brn",
+          "train": "brn",
+          "color": "#997700"
+      }
+  },
+  {
+      "index": 97,
+      "number": 93,
+      "color": "BRN",
+      "id": "40090",
+      "on": false,
+      "stopIDs": [
+          30019,
+          30018
+      ],
+      "station": {
+          "stop_id": 40090,
+          "stop_code": null,
+          "stop_name": "Damen (Brown)",
+          "stop_desc": "",
+          "stop_lat": 41.966286,
+          "stop_lon": -87.678639,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "BRN",
+          "route": "Brn",
+          "train": "brn",
+          "color": "#997700"
+      }
+  },
+  {
+      "index": 98,
+      "number": 158,
+      "color": "BRN",
+      "id": "40160",
+      "on": false,
+      "stopIDs": [
+          30030
+      ],
+      "station": {
+          "stop_id": 40160,
+          "stop_code": null,
+          "stop_name": "LaSalle/Van Buren",
+          "stop_desc": "",
+          "stop_lat": 41.8768,
+          "stop_lon": -87.631739,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 0
+      },
+      "line": {
+          "name": "BRN",
+          "route": "Brn",
+          "train": "brn",
+          "color": "#997700"
+      }
+  },
+  {
+      "index": 99,
+      "number": 179,
+      "color": "BRN",
+      "id": "40260",
+      "on": false,
+      "stopIDs": [
+          30051
+      ],
+      "station": {
+          "stop_id": 40260,
+          "stop_code": null,
+          "stop_name": "State/Lake (Loop 'L')",
+          "stop_desc": "",
+          "stop_lat": 41.88574,
+          "stop_lon": -87.627835,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 0
+      },
+      "line": {
+          "name": "BRN",
+          "route": "Brn",
+          "train": "brn",
+          "color": "#997700"
+      }
+  },
+  {
+      "index": 100,
+      "number": 98,
+      "color": "BRN",
+      "id": "40360",
+      "on": false,
+      "stopIDs": [
+          30071,
+          30070
+      ],
+      "station": {
+          "stop_id": 40360,
+          "stop_code": null,
+          "stop_name": "Southport",
+          "stop_desc": "",
+          "stop_lat": 41.943744,
+          "stop_lon": -87.663619,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "BRN",
+          "route": "Brn",
+          "train": "brn",
+          "color": "#997700"
+      }
+  },
+  {
+      "index": 101,
+      "number": 178,
+      "color": "BRN",
+      "id": "40380",
+      "on": false,
+      "stopIDs": [
+          30075
+      ],
+      "station": {
+          "stop_id": 40380,
+          "stop_code": null,
+          "stop_name": "Clark/Lake",
+          "stop_desc": "",
+          "stop_lat": 41.885737,
+          "stop_lon": -87.630886,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "BRN",
+          "route": "Brn",
+          "train": "brn",
+          "color": "#997700"
+      }
+  },
+  {
+      "index": 102,
+      "number": 176,
+      "color": "BRN",
+      "id": "40460",
+      "on": false,
+      "stopIDs": [
+          30090,
+          30091
+      ],
+      "station": {
+          "stop_id": 40460,
+          "stop_code": null,
+          "stop_name": "Merchandise Mart (Brown/Purple)",
+          "stop_desc": "",
+          "stop_lat": 41.888969,
+          "stop_lon": -87.633924,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "BRN",
+          "route": "Brn",
+          "train": "brn",
+          "color": "#997700"
+      }
+  },
+  {
+      "index": 103,
+      "number": 101,
+      "color": "BRN",
+      "id": "40530",
+      "on": false,
+      "stopIDs": [
+          30103,
+          30104
+      ],
+      "station": {
+          "stop_id": 40530,
+          "stop_code": null,
+          "stop_name": "Diversey (Brown/Purple)",
+          "stop_desc": "",
+          "stop_lat": 41.932732,
+          "stop_lon": -87.653131,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "BRN",
+          "route": "Brn",
+          "train": "brn",
+          "color": "#997700"
+      }
+  },
+  {
+      "index": 104,
+      "number": 103,
+      "color": "BRN",
+      "id": "40660",
+      "on": false,
+      "stopIDs": [
+          30127,
+          30128
+      ],
+      "station": {
+          "stop_id": 40660,
+          "stop_code": null,
+          "stop_name": "Armitage (Brown/Purple)",
+          "stop_desc": "",
+          "stop_lat": 41.918217,
+          "stop_lon": -87.652644,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "BRN",
+          "route": "Brn",
+          "train": "brn",
+          "color": "#997700"
+      }
+  },
+  {
+      "index": 105,
+      "number": 196,
+      "color": "BRN",
+      "id": "40680",
+      "on": false,
+      "stopIDs": [
+          30131
+      ],
+      "station": {
+          "stop_id": 40680,
+          "stop_code": null,
+          "stop_name": "Adams/Wabash",
+          "stop_desc": "",
+          "stop_lat": 41.879507,
+          "stop_lon": -87.626037,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 0
+      },
+      "line": {
+          "name": "BRN",
+          "route": "Brn",
+          "train": "brn",
+          "color": "#997700"
+      }
+  },
+  {
+      "index": 106,
+      "number": 105,
+      "color": "BRN",
+      "id": "40710",
+      "on": false,
+      "stopIDs": [
+          30138,
+          30137
+      ],
+      "station": {
+          "stop_id": 40710,
+          "stop_code": null,
+          "stop_name": "Chicago (Brown/Purple)",
+          "stop_desc": "",
+          "stop_lat": 41.89681,
+          "stop_lon": -87.635924,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "BRN",
+          "route": "Brn",
+          "train": "brn",
+          "color": "#997700"
+      }
+  },
+  {
+      "index": 107,
+      "number": 170,
+      "color": "BRN",
+      "id": "40730",
+      "on": false,
+      "stopIDs": [
+          30142
+      ],
+      "station": {
+          "stop_id": 40730,
+          "stop_code": null,
+          "stop_name": "Washington/Wells",
+          "stop_desc": "",
+          "stop_lat": 41.882695,
+          "stop_lon": -87.63378,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "BRN",
+          "route": "Brn",
+          "train": "brn",
+          "color": "#997700"
+      }
+  },
+  {
+      "index": 108,
+      "number": 110,
+      "color": "BRN",
+      "id": "40800",
+      "on": false,
+      "stopIDs": [
+          30156,
+          30155
+      ],
+      "station": {
+          "stop_id": 40800,
+          "stop_code": null,
+          "stop_name": "Sedgwick (Brown/Purple)",
+          "stop_desc": "",
+          "stop_lat": 41.910409,
+          "stop_lon": -87.639302,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "BRN",
+          "route": "Brn",
+          "train": "brn",
+          "color": "#997700"
+      }
+  },
+  {
+      "index": 109,
+      "number": 151,
+      "color": "BRN",
+      "id": "40850",
+      "on": false,
+      "stopIDs": [
+          30165
+      ],
+      "station": {
+          "stop_id": 40850,
+          "stop_code": null,
+          "stop_name": "Harold Washington Library-State/Van Buren",
+          "stop_desc": "",
+          "stop_lat": 41.876862,
+          "stop_lon": -87.628196,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "BRN",
+          "route": "Brn",
+          "train": "brn",
+          "color": "#997700"
+      }
+  },
+  {
+      "index": 110,
+      "number": 90,
+      "color": "BRN",
+      "id": "40870",
+      "on": false,
+      "stopIDs": [
+          30168,
+          30167
+      ],
+      "station": {
+          "stop_id": 40870,
+          "stop_code": null,
+          "stop_name": "Francisco",
+          "stop_desc": "",
+          "stop_lat": 41.966046,
+          "stop_lon": -87.701644,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "BRN",
+          "route": "Brn",
+          "train": "brn",
+          "color": "#997700"
+      }
+  },
+  {
+      "index": 111,
+      "number": 91,
+      "color": "BRN",
+      "id": "41010",
+      "on": false,
+      "stopIDs": [
+          30196,
+          30195
+      ],
+      "station": {
+          "stop_id": 41010,
+          "stop_code": null,
+          "stop_name": "Rockwell",
+          "stop_desc": "",
+          "stop_lat": 41.966115,
+          "stop_lon": -87.6941,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "BRN",
+          "route": "Brn",
+          "train": "brn",
+          "color": "#997700"
+      }
+  },
+  {
+      "index": 112,
+      "number": 89,
+      "color": "BRN",
+      "id": "41180",
+      "on": false,
+      "stopIDs": [
+          30226,
+          30225
+      ],
+      "station": {
+          "stop_id": 41180,
+          "stop_code": null,
+          "stop_name": "Kedzie (Brown)",
+          "stop_desc": "",
+          "stop_lat": 41.965996,
+          "stop_lon": -87.708821,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "BRN",
+          "route": "Brn",
+          "train": "brn",
+          "color": "#997700"
+      }
+  },
+  {
+      "index": 113,
+      "number": 100,
+      "color": "BRN",
+      "id": "41210",
+      "on": false,
+      "stopIDs": [
+          30231,
+          30232
+      ],
+      "station": {
+          "stop_id": 41210,
+          "stop_code": null,
+          "stop_name": "Wellington (Brown/Purple)",
+          "stop_desc": "",
+          "stop_lat": 41.936033,
+          "stop_lon": -87.653266,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "BRN",
+          "route": "Brn",
+          "train": "brn",
+          "color": "#997700"
+      }
+  },
+  {
+      "index": 114,
+      "number": 102,
+      "color": "BRN",
+      "id": "41220",
+      "on": false,
+      "stopIDs": [
+          30236,
+          30235
+      ],
+      "station": {
+          "stop_id": 41220,
+          "stop_code": null,
+          "stop_name": "Fullerton",
+          "stop_desc": "",
+          "stop_lat": 41.9253003719,
+          "stop_lon": -87.6528684398,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "BRN",
+          "route": "Brn",
+          "train": "brn",
+          "color": "#997700"
+      }
+  },
+  {
+      "index": 115,
+      "number": 88,
+      "color": "BRN",
+      "id": "41290",
+      "on": false,
+      "stopIDs": [
+          30250,
+          30249
+      ],
+      "station": {
+          "stop_id": 41290,
+          "stop_code": null,
+          "stop_name": "Kimball",
+          "stop_desc": "",
+          "stop_lat": 41.967901,
+          "stop_lon": -87.713065,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "BRN",
+          "route": "Brn",
+          "train": "brn",
+          "color": "#997700"
+      }
+  },
+  {
+      "index": 116,
+      "number": 97,
+      "color": "BRN",
+      "id": "41310",
+      "on": false,
+      "stopIDs": [
+          30253,
+          30254
+      ],
+      "station": {
+          "stop_id": 41310,
+          "stop_code": null,
+          "stop_name": "Paulina",
+          "stop_desc": "",
+          "stop_lat": 41.943623,
+          "stop_lon": -87.670907,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "BRN",
+          "route": "Brn",
+          "train": "brn",
+          "color": "#997700"
+      }
+  },
+  {
+      "index": 117,
+      "number": 99,
+      "color": "BRN",
+      "id": "41320",
+      "on": false,
+      "stopIDs": [
+          30258,
+          30257
+      ],
+      "station": {
+          "stop_id": 41320,
+          "stop_code": null,
+          "stop_name": "Belmont (Red/Brown/Purple)",
+          "stop_desc": "",
+          "stop_lat": 41.939751,
+          "stop_lon": -87.65338,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "BRN",
+          "route": "Brn",
+          "train": "brn",
+          "color": "#997700"
+      }
+  },
+  {
+      "index": 118,
+      "number": 96,
+      "color": "BRN",
+      "id": "41440",
+      "on": false,
+      "stopIDs": [
+          30277,
+          30278
+      ],
+      "station": {
+          "stop_id": 41440,
+          "stop_code": null,
+          "stop_name": "Addison (Brown)",
+          "stop_desc": "",
+          "stop_lat": 41.947028,
+          "stop_lon": -87.674642,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "BRN",
+          "route": "Brn",
+          "train": "brn",
+          "color": "#997700"
+      }
+  },
+  {
+      "index": 119,
+      "number": 95,
+      "color": "BRN",
+      "id": "41460",
+      "on": false,
+      "stopIDs": [
+          30281,
+          30282
+      ],
+      "station": {
+          "stop_id": 41460,
+          "stop_code": null,
+          "stop_name": "Irving Park (Brown)",
+          "stop_desc": "",
+          "stop_lat": 41.954521,
+          "stop_lon": -87.674868,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "BRN",
+          "route": "Brn",
+          "train": "brn",
+          "color": "#997700"
+      }
+  },
+  {
+      "index": 120,
+      "number": 92,
+      "color": "BRN",
+      "id": "41480",
+      "on": false,
+      "stopIDs": [
+          30284,
+          30283
+      ],
+      "station": {
+          "stop_id": 41480,
+          "stop_code": null,
+          "stop_name": "Western (Brown)",
+          "stop_desc": "",
+          "stop_lat": 41.966163,
+          "stop_lon": -87.688502,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "BRN",
+          "route": "Brn",
+          "train": "brn",
+          "color": "#997700"
+      }
+  },
+  {
+      "index": 121,
+      "number": 94,
+      "color": "BRN",
+      "id": "41500",
+      "on": false,
+      "stopIDs": [
+          30288,
+          30287
+      ],
+      "station": {
+          "stop_id": 41500,
+          "stop_code": null,
+          "stop_name": "Montrose (Brown)",
+          "stop_desc": "",
+          "stop_lat": 41.961756,
+          "stop_lon": -87.675047,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "BRN",
+          "route": "Brn",
+          "train": "brn",
+          "color": "#997700"
+      }
+  },
+  {
+      "index": 122,
+      "number": 186,
+      "color": "BRN",
+      "id": "41700",
+      "on": false,
+      "stopIDs": [
+          30383
+      ],
+      "station": {
+          "stop_id": 41700,
+          "stop_code": null,
+          "stop_name": "Washington/Wabash",
+          "stop_desc": "",
+          "stop_lat": 41.88322,
+          "stop_lon": -87.626189,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "BRN",
+          "route": "Brn",
+          "train": "brn",
+          "color": "#997700"
+      }
+  },
+  {
+      "index": 123,
+      "number": 163,
+      "color": "P",
+      "id": "40040",
+      "on": false,
+      "stopIDs": [
+          30007
+      ],
+      "station": {
+          "stop_id": 40040,
+          "stop_code": null,
+          "stop_name": "Quincy",
+          "stop_desc": "",
+          "stop_lat": 41.878723,
+          "stop_lon": -87.63374,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "P",
+          "route": "P",
+          "train": "p",
+          "color": "#5500ff"
+      }
+  },
+  {
+      "index": 124,
+      "number": 146,
+      "color": "P",
+      "id": "40050",
+      "on": false,
+      "stopIDs": [
+          30010,
+          30010,
+          30011,
+          30011
+      ],
+      "station": {
+          "stop_id": 40050,
+          "stop_code": null,
+          "stop_name": "Davis",
+          "stop_desc": "",
+          "stop_lat": 42.04771,
+          "stop_lon": -87.683543,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "P",
+          "route": "P",
+          "train": "p",
+          "color": "#5500ff"
+      }
+  },
+  {
+      "index": 125,
+      "number": 159,
+      "color": "P",
+      "id": "40160",
+      "on": false,
+      "stopIDs": [
+          30031
+      ],
+      "station": {
+          "stop_id": 40160,
+          "stop_code": null,
+          "stop_name": "LaSalle/Van Buren",
+          "stop_desc": "",
+          "stop_lat": 41.8768,
+          "stop_lon": -87.631739,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 0
+      },
+      "line": {
+          "name": "P",
+          "route": "P",
+          "train": "p",
+          "color": "#5500ff"
+      }
+  },
+  {
+      "index": 126,
+      "number": 180,
+      "color": "P",
+      "id": "40260",
+      "on": false,
+      "stopIDs": [
+          30050
+      ],
+      "station": {
+          "stop_id": 40260,
+          "stop_code": null,
+          "stop_name": "State/Lake (Loop 'L')",
+          "stop_desc": "",
+          "stop_lat": 41.88574,
+          "stop_lon": -87.627835,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 0
+      },
+      "line": {
+          "name": "P",
+          "route": "P",
+          "train": "p",
+          "color": "#5500ff"
+      }
+  },
+  {
+      "index": 127,
+      "number": 145,
+      "color": "P",
+      "id": "40270",
+      "on": false,
+      "stopIDs": [
+          30053,
+          30053,
+          30052,
+          30052
+      ],
+      "station": {
+          "stop_id": 40270,
+          "stop_code": null,
+          "stop_name": "Main",
+          "stop_desc": "",
+          "stop_lat": 42.033456,
+          "stop_lon": -87.679538,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 0
+      },
+      "line": {
+          "name": "P",
+          "route": "P",
+          "train": "p",
+          "color": "#5500ff"
+      }
+  },
+  {
+      "index": 128,
+      "number": 175,
+      "color": "P",
+      "id": "40380",
+      "on": false,
+      "stopIDs": [
+          30074
+      ],
+      "station": {
+          "stop_id": 40380,
+          "stop_code": null,
+          "stop_name": "Clark/Lake",
+          "stop_desc": "",
+          "stop_lat": 41.885737,
+          "stop_lon": -87.630886,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "P",
+          "route": "P",
+          "train": "p",
+          "color": "#5500ff"
+      }
+  },
+  {
+      "index": 129,
+      "number": 148,
+      "color": "P",
+      "id": "40400",
+      "on": false,
+      "stopIDs": [
+          30078,
+          30078,
+          30079,
+          30079
+      ],
+      "station": {
+          "stop_id": 40400,
+          "stop_code": null,
+          "stop_name": "Noyes",
+          "stop_desc": "",
+          "stop_lat": 42.058282,
+          "stop_lon": -87.683337,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 0
+      },
+      "line": {
+          "name": "P",
+          "route": "P",
+          "train": "p",
+          "color": "#5500ff"
+      }
+  },
+  {
+      "index": 130,
+      "number": 177,
+      "color": "P",
+      "id": "40460",
+      "on": false,
+      "stopIDs": [
+          30090,
+          30091
+      ],
+      "station": {
+          "stop_id": 40460,
+          "stop_code": null,
+          "stop_name": "Merchandise Mart (Brown/Purple)",
+          "stop_desc": "",
+          "stop_lat": 41.888969,
+          "stop_lon": -87.633924,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "P",
+          "route": "P",
+          "train": "p",
+          "color": "#5500ff"
+      }
+  },
+  {
+      "index": 131,
+      "number": 147,
+      "color": "P",
+      "id": "40520",
+      "on": false,
+      "stopIDs": [
+          30102,
+          30102,
+          30101,
+          30101
+      ],
+      "station": {
+          "stop_id": 40520,
+          "stop_code": null,
+          "stop_name": "Foster",
+          "stop_desc": "",
+          "stop_lat": 42.05416,
+          "stop_lon": -87.68356,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 0
+      },
+      "line": {
+          "name": "P",
+          "route": "P",
+          "train": "p",
+          "color": "#5500ff"
+      }
+  },
+  {
+      "index": 132,
+      "number": 115,
+      "color": "P",
+      "id": "40530",
+      "on": false,
+      "stopIDs": [
+          30103,
+          30104
+      ],
+      "station": {
+          "stop_id": 40530,
+          "stop_code": null,
+          "stop_name": "Diversey (Brown/Purple)",
+          "stop_desc": "",
+          "stop_lat": 41.932732,
+          "stop_lon": -87.653131,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "P",
+          "route": "P",
+          "train": "p",
+          "color": "#5500ff"
+      }
+  },
+  {
+      "index": 133,
+      "number": 122,
+      "color": "P",
+      "id": "40540",
+      "on": false,
+      "stopIDs": [
+          30385,
+          30386
+      ],
+      "station": {
+          "stop_id": 40540,
+          "stop_code": null,
+          "stop_name": "Wilson",
+          "stop_desc": "",
+          "stop_lat": 41.965481568,
+          "stop_lon": -87.6579258145,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "P",
+          "route": "P",
+          "train": "p",
+          "color": "#5500ff"
+      }
+  },
+  {
+      "index": 134,
+      "number": 112,
+      "color": "P",
+      "id": "40660",
+      "on": false,
+      "stopIDs": [
+          30127,
+          30128
+      ],
+      "station": {
+          "stop_id": 40660,
+          "stop_code": null,
+          "stop_name": "Armitage (Brown/Purple)",
+          "stop_desc": "",
+          "stop_lat": 41.918217,
+          "stop_lon": -87.652644,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "P",
+          "route": "P",
+          "train": "p",
+          "color": "#5500ff"
+      }
+  },
+  {
+      "index": 135,
+      "number": 195,
+      "color": "P",
+      "id": "40680",
+      "on": false,
+      "stopIDs": [
+          30132
+      ],
+      "station": {
+          "stop_id": 40680,
+          "stop_code": null,
+          "stop_name": "Adams/Wabash",
+          "stop_desc": "",
+          "stop_lat": 41.879507,
+          "stop_lon": -87.626037,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 0
+      },
+      "line": {
+          "name": "P",
+          "route": "P",
+          "train": "p",
+          "color": "#5500ff"
+      }
+  },
+  {
+      "index": 136,
+      "number": 143,
+      "color": "P",
+      "id": "40690",
+      "on": false,
+      "stopIDs": [
+          30134,
+          30134,
+          30133,
+          30133
+      ],
+      "station": {
+          "stop_id": 40690,
+          "stop_code": null,
+          "stop_name": "Dempster",
+          "stop_desc": "",
+          "stop_lat": 42.041655,
+          "stop_lon": -87.681602,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 0
+      },
+      "line": {
+          "name": "P",
+          "route": "P",
+          "train": "p",
+          "color": "#5500ff"
+      }
+  },
+  {
+      "index": 137,
+      "number": 106,
+      "color": "P",
+      "id": "40710",
+      "on": false,
+      "stopIDs": [
+          30138,
+          30137
+      ],
+      "station": {
+          "stop_id": 40710,
+          "stop_code": null,
+          "stop_name": "Chicago (Brown/Purple)",
+          "stop_desc": "",
+          "stop_lat": 41.89681,
+          "stop_lon": -87.635924,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "P",
+          "route": "P",
+          "train": "p",
+          "color": "#5500ff"
+      }
+  },
+  {
+      "index": 138,
+      "number": 169,
+      "color": "P",
+      "id": "40730",
+      "on": false,
+      "stopIDs": [
+          30141
+      ],
+      "station": {
+          "stop_id": 40730,
+          "stop_code": null,
+          "stop_name": "Washington/Wells",
+          "stop_desc": "",
+          "stop_lat": 41.882695,
+          "stop_lon": -87.63378,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "P",
+          "route": "P",
+          "train": "p",
+          "color": "#5500ff"
+      }
+  },
+  {
+      "index": 139,
+      "number": 111,
+      "color": "P",
+      "id": "40800",
+      "on": false,
+      "stopIDs": [
+          30156,
+          30155
+      ],
+      "station": {
+          "stop_id": 40800,
+          "stop_code": null,
+          "stop_name": "Sedgwick (Brown/Purple)",
+          "stop_desc": "",
+          "stop_lat": 41.910409,
+          "stop_lon": -87.639302,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "P",
+          "route": "P",
+          "train": "p",
+          "color": "#5500ff"
+      }
+  },
+  {
+      "index": 140,
+      "number": 144,
+      "color": "P",
+      "id": "40840",
+      "on": false,
+      "stopIDs": [
+          30164,
+          30164,
+          30163,
+          30163
+      ],
+      "station": {
+          "stop_id": 40840,
+          "stop_code": null,
+          "stop_name": "South Boulevard",
+          "stop_desc": "",
+          "stop_lat": 42.027612,
+          "stop_lon": -87.678329,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 0
+      },
+      "line": {
+          "name": "P",
+          "route": "P",
+          "train": "p",
+          "color": "#5500ff"
+      }
+  },
+  {
+      "index": 141,
+      "number": 159,
+      "color": "P",
+      "id": "40850",
+      "on": false,
+      "stopIDs": [
+          30166
+      ],
+      "station": {
+          "stop_id": 40850,
+          "stop_code": null,
+          "stop_name": "Harold Washington Library-State/Van Buren",
+          "stop_desc": "",
+          "stop_lat": 41.876862,
+          "stop_lon": -87.628196,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "P",
+          "route": "P",
+          "train": "p",
+          "color": "#5500ff"
+      }
+  },
+  {
+      "index": 142,
+      "number": 139,
+      "color": "P",
+      "id": "40900",
+      "on": false,
+      "stopIDs": [
+          30175,
+          30175,
+          30176,
+          30176
+      ],
+      "station": {
+          "stop_id": 40900,
+          "stop_code": null,
+          "stop_name": "Howard",
+          "stop_desc": "",
+          "stop_lat": 42.019063,
+          "stop_lon": -87.672892,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "P",
+          "route": "P",
+          "train": "p",
+          "color": "#5500ff"
+      }
+  },
+  {
+      "index": 143,
+      "number": 150,
+      "color": "P",
+      "id": "41050",
+      "on": false,
+      "stopIDs": [
+          30204,
+          30204,
+          30203,
+          30203
+      ],
+      "station": {
+          "stop_id": 41050,
+          "stop_code": null,
+          "stop_name": "Linden",
+          "stop_desc": "",
+          "stop_lat": 42.073153,
+          "stop_lon": -87.69073,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "P",
+          "route": "P",
+          "train": "p",
+          "color": "#5500ff"
+      }
+  },
+  {
+      "index": 144,
+      "number": 116,
+      "color": "P",
+      "id": "41210",
+      "on": false,
+      "stopIDs": [
+          30231,
+          30232
+      ],
+      "station": {
+          "stop_id": 41210,
+          "stop_code": null,
+          "stop_name": "Wellington (Brown/Purple)",
+          "stop_desc": "",
+          "stop_lat": 41.936033,
+          "stop_lon": -87.653266,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "P",
+          "route": "P",
+          "train": "p",
+          "color": "#5500ff"
+      }
+  },
+  {
+      "index": 145,
+      "number": 113,
+      "color": "P",
+      "id": "41220",
+      "on": false,
+      "stopIDs": [
+          30236,
+          30235
+      ],
+      "station": {
+          "stop_id": 41220,
+          "stop_code": null,
+          "stop_name": "Fullerton",
+          "stop_desc": "",
+          "stop_lat": 41.9253003719,
+          "stop_lon": -87.6528684398,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "P",
+          "route": "P",
+          "train": "p",
+          "color": "#5500ff"
+      }
+  },
+  {
+      "index": 146,
+      "number": 149,
+      "color": "P",
+      "id": "41250",
+      "on": false,
+      "stopIDs": [
+          30241,
+          30241,
+          30242,
+          30242
+      ],
+      "station": {
+          "stop_id": 41250,
+          "stop_code": null,
+          "stop_name": "Central (Purple)",
+          "stop_desc": "",
+          "stop_lat": 42.063987,
+          "stop_lon": -87.685617,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 0
+      },
+      "line": {
+          "name": "P",
+          "route": "P",
+          "train": "p",
+          "color": "#5500ff"
+      }
+  },
+  {
+      "index": 147,
+      "number": 117,
+      "color": "P",
+      "id": "41320",
+      "on": false,
+      "stopIDs": [
+          30258,
+          30257
+      ],
+      "station": {
+          "stop_id": 41320,
+          "stop_code": null,
+          "stop_name": "Belmont (Red/Brown/Purple)",
+          "stop_desc": "",
+          "stop_lat": 41.939751,
+          "stop_lon": -87.65338,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "P",
+          "route": "P",
+          "train": "p",
+          "color": "#5500ff"
+      }
+  },
+  {
+      "index": 148,
+      "number": 187,
+      "color": "P",
+      "id": "41700",
+      "on": false,
+      "stopIDs": [
+          30384
+      ],
+      "station": {
+          "stop_id": 41700,
+          "stop_code": null,
+          "stop_name": "Washington/Wabash",
+          "stop_desc": "",
+          "stop_lat": 41.88322,
+          "stop_lon": -87.626189,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "P",
+          "route": "P",
+          "train": "p",
+          "color": "#5500ff"
+      }
+  },
+  {
+      "index": 149,
+      "number": 142,
+      "color": "Y",
+      "id": "40140",
+      "on": false,
+      "stopIDs": [
+          30026,
+          30027
+      ],
+      "station": {
+          "stop_id": 40140,
+          "stop_code": null,
+          "stop_name": "Dempster-Skokie",
+          "stop_desc": "",
+          "stop_lat": 42.038951,
+          "stop_lon": -87.751919,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "Y",
+          "route": "Y",
+          "train": "y",
+          "color": "#ffcc00"
+      }
+  },
+  {
+      "index": 150,
+      "number": 140,
+      "color": "Y",
+      "id": "40900",
+      "on": false,
+      "stopIDs": [
+          30175,
+          30176
+      ],
+      "station": {
+          "stop_id": 40900,
+          "stop_code": null,
+          "stop_name": "Howard",
+          "stop_desc": "",
+          "stop_lat": 42.019063,
+          "stop_lon": -87.672892,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "Y",
+          "route": "Y",
+          "train": "y",
+          "color": "#ffcc00"
+      }
+  },
+  {
+      "index": 151,
+      "number": 141,
+      "color": "Y",
+      "id": "41680",
+      "on": false,
+      "stopIDs": [
+          30297,
+          30298
+      ],
+      "station": {
+          "stop_id": 41680,
+          "stop_code": null,
+          "stop_name": "Oakton-Skokie",
+          "stop_desc": "",
+          "stop_lat": 42.02624348,
+          "stop_lon": -87.74722084,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "Y",
+          "route": "Y",
+          "train": "y",
+          "color": "#ffcc00"
+      }
+  },
+  {
+      "index": 152,
+      "number": 165,
+      "color": "Pnk",
+      "id": "40040",
+      "on": false,
+      "stopIDs": [
+          30007
+      ],
+      "station": {
+          "stop_id": 40040,
+          "stop_code": null,
+          "stop_name": "Quincy",
+          "stop_desc": "",
+          "stop_lat": 41.878723,
+          "stop_lon": -87.63374,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "Pnk",
+          "route": "Pink",
+          "train": "pink",
+          "color": "#ff77dd"
+      }
+  },
+  {
+      "index": 153,
+      "number": 42,
+      "color": "Pnk",
+      "id": "40150",
+      "on": false,
+      "stopIDs": [
+          30029,
+          30028
+      ],
+      "station": {
+          "stop_id": 40150,
+          "stop_code": null,
+          "stop_name": "Pulaski (Pink)",
+          "stop_desc": "",
+          "stop_lat": 41.853732,
+          "stop_lon": -87.724311,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "Pnk",
+          "route": "Pink",
+          "train": "pink",
+          "color": "#ff77dd"
+      }
+  },
+  {
+      "index": 154,
+      "number": 161,
+      "color": "Pnk",
+      "id": "40160",
+      "on": false,
+      "stopIDs": [
+          30031
+      ],
+      "station": {
+          "stop_id": 40160,
+          "stop_code": null,
+          "stop_name": "LaSalle/Van Buren",
+          "stop_desc": "",
+          "stop_lat": 41.8768,
+          "stop_lon": -87.631739,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 0
+      },
+      "line": {
+          "name": "Pnk",
+          "route": "Pink",
+          "train": "pink",
+          "color": "#ff77dd"
+      }
+  },
+  {
+      "index": 155,
+      "number": 55,
+      "color": "Pnk",
+      "id": "40170",
+      "on": false,
+      "stopIDs": [
+          30032,
+          30033
+      ],
+      "station": {
+          "stop_id": 40170,
+          "stop_code": null,
+          "stop_name": "Ashland (Green/Pink)",
+          "stop_desc": "",
+          "stop_lat": 41.885269,
+          "stop_lon": -87.666969,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "Pnk",
+          "route": "Pink",
+          "train": "pink",
+          "color": "#ff77dd"
+      }
+  },
+  {
+      "index": 156,
+      "number": 37,
+      "color": "Pnk",
+      "id": "40210",
+      "on": false,
+      "stopIDs": [
+          30041,
+          30040
+      ],
+      "station": {
+          "stop_id": 40210,
+          "stop_code": null,
+          "stop_name": "Damen (Pink)",
+          "stop_desc": "",
+          "stop_lat": 41.854517,
+          "stop_lon": -87.675975,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "Pnk",
+          "route": "Pink",
+          "train": "pink",
+          "color": "#ff77dd"
+      }
+  },
+  {
+      "index": 157,
+      "number": 183,
+      "color": "Pnk",
+      "id": "40260",
+      "on": false,
+      "stopIDs": [
+          30050
+      ],
+      "station": {
+          "stop_id": 40260,
+          "stop_code": null,
+          "stop_name": "State/Lake (Loop 'L')",
+          "stop_desc": "",
+          "stop_lat": 41.88574,
+          "stop_lon": -87.627835,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 0
+      },
+      "line": {
+          "name": "Pnk",
+          "route": "Pink",
+          "train": "pink",
+          "color": "#ff77dd"
+      }
+  },
+  {
+      "index": 158,
+      "number": 172,
+      "color": "Pnk",
+      "id": "40380",
+      "on": false,
+      "stopIDs": [
+          30074
+      ],
+      "station": {
+          "stop_id": 40380,
+          "stop_code": null,
+          "stop_name": "Clark/Lake",
+          "stop_desc": "",
+          "stop_lat": 41.885737,
+          "stop_lon": -87.630886,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "Pnk",
+          "route": "Pink",
+          "train": "pink",
+          "color": "#ff77dd"
+      }
+  },
+  {
+      "index": 159,
+      "number": 44,
+      "color": "Pnk",
+      "id": "40420",
+      "on": false,
+      "stopIDs": [
+          30082,
+          30083
+      ],
+      "station": {
+          "stop_id": 40420,
+          "stop_code": null,
+          "stop_name": "Cicero (Pink)",
+          "stop_desc": "",
+          "stop_lat": 41.85182,
+          "stop_lon": -87.745336,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "Pnk",
+          "route": "Pink",
+          "train": "pink",
+          "color": "#ff77dd"
+      }
+  },
+  {
+      "index": 160,
+      "number": 39,
+      "color": "Pnk",
+      "id": "40440",
+      "on": false,
+      "stopIDs": [
+          30087,
+          30086
+      ],
+      "station": {
+          "stop_id": 40440,
+          "stop_code": null,
+          "stop_name": "California (Pink)",
+          "stop_desc": "",
+          "stop_lat": 41.854109,
+          "stop_lon": -87.694774,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "Pnk",
+          "route": "Pink",
+          "train": "pink",
+          "color": "#ff77dd"
+      }
+  },
+  {
+      "index": 161,
+      "number": 45,
+      "color": "Pnk",
+      "id": "40580",
+      "on": false,
+      "stopIDs": [
+          30114,
+          30113
+      ],
+      "station": {
+          "stop_id": 40580,
+          "stop_code": null,
+          "stop_name": "54th/Cermak",
+          "stop_desc": "",
+          "stop_lat": 41.85177331,
+          "stop_lon": -87.75669201,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "Pnk",
+          "route": "Pink",
+          "train": "pink",
+          "color": "#ff77dd"
+      }
+  },
+  {
+      "index": 162,
+      "number": 43,
+      "color": "Pnk",
+      "id": "40600",
+      "on": false,
+      "stopIDs": [
+          30118,
+          30117
+      ],
+      "station": {
+          "stop_id": 40600,
+          "stop_code": null,
+          "stop_name": "Kostner",
+          "stop_desc": "",
+          "stop_lat": 41.853751,
+          "stop_lon": -87.733258,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "Pnk",
+          "route": "Pink",
+          "train": "pink",
+          "color": "#ff77dd"
+      }
+  },
+  {
+      "index": 163,
+      "number": 192,
+      "color": "Pnk",
+      "id": "40680",
+      "on": false,
+      "stopIDs": [
+          30132
+      ],
+      "station": {
+          "stop_id": 40680,
+          "stop_code": null,
+          "stop_name": "Adams/Wabash",
+          "stop_desc": "",
+          "stop_lat": 41.879507,
+          "stop_lon": -87.626037,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 0
+      },
+      "line": {
+          "name": "Pnk",
+          "route": "Pink",
+          "train": "pink",
+          "color": "#ff77dd"
+      }
+  },
+  {
+      "index": 164,
+      "number": 167,
+      "color": "Pnk",
+      "id": "40730",
+      "on": false,
+      "stopIDs": [
+          30141
+      ],
+      "station": {
+          "stop_id": 40730,
+          "stop_code": null,
+          "stop_name": "Washington/Wells",
+          "stop_desc": "",
+          "stop_lat": 41.882695,
+          "stop_lon": -87.63378,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "Pnk",
+          "route": "Pink",
+          "train": "pink",
+          "color": "#ff77dd"
+      }
+  },
+  {
+      "index": 165,
+      "number": 38,
+      "color": "Pnk",
+      "id": "40740",
+      "on": false,
+      "stopIDs": [
+          30144,
+          30143
+      ],
+      "station": {
+          "stop_id": 40740,
+          "stop_code": null,
+          "stop_name": "Western (Pink)",
+          "stop_desc": "",
+          "stop_lat": 41.854225,
+          "stop_lon": -87.685129,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "Pnk",
+          "route": "Pink",
+          "train": "pink",
+          "color": "#ff77dd"
+      }
+  },
+  {
+      "index": 166,
+      "number": 41,
+      "color": "Pnk",
+      "id": "40780",
+      "on": false,
+      "stopIDs": [
+          30152,
+          30151
+      ],
+      "station": {
+          "stop_id": 40780,
+          "stop_code": null,
+          "stop_name": "Central Park",
+          "stop_desc": "",
+          "stop_lat": 41.853839,
+          "stop_lon": -87.714842,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "Pnk",
+          "route": "Pink",
+          "train": "pink",
+          "color": "#ff77dd"
+      }
+  },
+  {
+      "index": 167,
+      "number": 36,
+      "color": "Pnk",
+      "id": "40830",
+      "on": false,
+      "stopIDs": [
+          30162,
+          30161
+      ],
+      "station": {
+          "stop_id": 40830,
+          "stop_code": null,
+          "stop_name": "18th",
+          "stop_desc": "",
+          "stop_lat": 41.857908,
+          "stop_lon": -87.669147,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "Pnk",
+          "route": "Pink",
+          "train": "pink",
+          "color": "#ff77dd"
+      }
+  },
+  {
+      "index": 168,
+      "number": 154,
+      "color": "Pnk",
+      "id": "40850",
+      "on": false,
+      "stopIDs": [
+          30166
+      ],
+      "station": {
+          "stop_id": 40850,
+          "stop_code": null,
+          "stop_name": "Harold Washington Library-State/Van Buren",
+          "stop_desc": "",
+          "stop_lat": 41.876862,
+          "stop_lon": -87.628196,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "Pnk",
+          "route": "Pink",
+          "train": "pink",
+          "color": "#ff77dd"
+      }
+  },
+  {
+      "index": 169,
+      "number": 35,
+      "color": "Pnk",
+      "id": "41030",
+      "on": false,
+      "stopIDs": [
+          30199,
+          30200
+      ],
+      "station": {
+          "stop_id": 41030,
+          "stop_code": null,
+          "stop_name": "Polk",
+          "stop_desc": "",
+          "stop_lat": 41.871551,
+          "stop_lon": -87.66953,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "Pnk",
+          "route": "Pink",
+          "train": "pink",
+          "color": "#ff77dd"
+      }
+  },
+  {
+      "index": 170,
+      "number": 40,
+      "color": "Pnk",
+      "id": "41040",
+      "on": false,
+      "stopIDs": [
+          30201,
+          30202
+      ],
+      "station": {
+          "stop_id": 41040,
+          "stop_code": null,
+          "stop_name": "Kedzie (Pink)",
+          "stop_desc": "",
+          "stop_lat": 41.853964,
+          "stop_lon": -87.705408,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "Pnk",
+          "route": "Pink",
+          "train": "pink",
+          "color": "#ff77dd"
+      }
+  },
+  {
+      "index": 171,
+      "number": 57,
+      "color": "Pnk",
+      "id": "41160",
+      "on": false,
+      "stopIDs": [
+          30222,
+          30221
+      ],
+      "station": {
+          "stop_id": 41160,
+          "stop_code": null,
+          "stop_name": "Clinton (Green/Pink)",
+          "stop_desc": "",
+          "stop_lat": 41.885678,
+          "stop_lon": -87.641782,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "Pnk",
+          "route": "Pink",
+          "train": "pink",
+          "color": "#ff77dd"
+      }
+  },
+  {
+      "index": 172,
+      "number": 56,
+      "color": "Pnk",
+      "id": "41510",
+      "on": false,
+      "stopIDs": [
+          30295,
+          30296
+      ],
+      "station": {
+          "stop_id": 41510,
+          "stop_code": null,
+          "stop_name": "Morgan (Green/Pink)",
+          "stop_desc": "",
+          "stop_lat": 41.88557676,
+          "stop_lon": -87.65212993,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "Pnk",
+          "route": "Pink",
+          "train": "pink",
+          "color": "#ff77dd"
+      }
+  },
+  {
+      "index": 173,
+      "number": 190,
+      "color": "Pnk",
+      "id": "41700",
+      "on": false,
+      "stopIDs": [
+          30384
+      ],
+      "station": {
+          "stop_id": 41700,
+          "stop_code": null,
+          "stop_name": "Washington/Wabash",
+          "stop_desc": "",
+          "stop_lat": 41.88322,
+          "stop_lon": -87.626189,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "Pnk",
+          "route": "Pink",
+          "train": "pink",
+          "color": "#ff77dd"
+      }
+  },
+  {
+      "index": 174,
+      "number": 164,
+      "color": "O",
+      "id": "40040",
+      "on": false,
+      "stopIDs": [
+          30007
+      ],
+      "station": {
+          "stop_id": 40040,
+          "stop_code": null,
+          "stop_name": "Quincy",
+          "stop_desc": "",
+          "stop_lat": 41.878723,
+          "stop_lon": -87.63374,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "O",
+          "route": "Org",
+          "train": "org",
+          "color": "#ff7700"
+      }
+  },
+  {
+      "index": 175,
+      "number": 12,
+      "color": "O",
+      "id": "40120",
+      "on": false,
+      "stopIDs": [
+          30022,
+          30023
+      ],
+      "station": {
+          "stop_id": 40120,
+          "stop_code": null,
+          "stop_name": "35th/Archer",
+          "stop_desc": "",
+          "stop_lat": 41.829353,
+          "stop_lon": -87.680622,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "O",
+          "route": "Org",
+          "train": "org",
+          "color": "#ff7700"
+      }
+  },
+  {
+      "index": 176,
+      "number": 160,
+      "color": "O",
+      "id": "40160",
+      "on": false,
+      "stopIDs": [
+          30031
+      ],
+      "station": {
+          "stop_id": 40160,
+          "stop_code": null,
+          "stop_name": "LaSalle/Van Buren",
+          "stop_desc": "",
+          "stop_lat": 41.8768,
+          "stop_lon": -87.631739,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 0
+      },
+      "line": {
+          "name": "O",
+          "route": "Org",
+          "train": "org",
+          "color": "#ff7700"
+      }
+  },
+  {
+      "index": 177,
+      "number": 181,
+      "color": "O",
+      "id": "40260",
+      "on": false,
+      "stopIDs": [
+          30050
+      ],
+      "station": {
+          "stop_id": 40260,
+          "stop_code": null,
+          "stop_name": "State/Lake (Loop 'L')",
+          "stop_desc": "",
+          "stop_lat": 41.88574,
+          "stop_lon": -87.627835,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 0
+      },
+      "line": {
+          "name": "O",
+          "route": "Org",
+          "train": "org",
+          "color": "#ff7700"
+      }
+  },
+  {
+      "index": 178,
+      "number": 11,
+      "color": "O",
+      "id": "40310",
+      "on": false,
+      "stopIDs": [
+          30061,
+          30060
+      ],
+      "station": {
+          "stop_id": 40310,
+          "stop_code": null,
+          "stop_name": "Western (Orange)",
+          "stop_desc": "",
+          "stop_lat": 41.804546,
+          "stop_lon": -87.684019,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "O",
+          "route": "Org",
+          "train": "org",
+          "color": "#ff7700"
+      }
+  },
+  {
+      "index": 179,
+      "number": 174,
+      "color": "O",
+      "id": "40380",
+      "on": false,
+      "stopIDs": [
+          30074
+      ],
+      "station": {
+          "stop_id": 40380,
+          "stop_code": null,
+          "stop_name": "Clark/Lake",
+          "stop_desc": "",
+          "stop_lat": 41.885737,
+          "stop_lon": -87.630886,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "O",
+          "route": "Org",
+          "train": "org",
+          "color": "#ff7700"
+      }
+  },
+  {
+      "index": 180,
+      "number": 194,
+      "color": "O",
+      "id": "40680",
+      "on": false,
+      "stopIDs": [
+          30132
+      ],
+      "station": {
+          "stop_id": 40680,
+          "stop_code": null,
+          "stop_name": "Adams/Wabash",
+          "stop_desc": "",
+          "stop_lat": 41.879507,
+          "stop_lon": -87.626037,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 0
+      },
+      "line": {
+          "name": "O",
+          "route": "Org",
+          "train": "org",
+          "color": "#ff7700"
+      }
+  },
+  {
+      "index": 181,
+      "number": 168,
+      "color": "O",
+      "id": "40730",
+      "on": false,
+      "stopIDs": [
+          30141
+      ],
+      "station": {
+          "stop_id": 40730,
+          "stop_code": null,
+          "stop_name": "Washington/Wells",
+          "stop_desc": "",
+          "stop_lat": 41.882695,
+          "stop_lon": -87.63378,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "O",
+          "route": "Org",
+          "train": "org",
+          "color": "#ff7700"
+      }
+  },
+  {
+      "index": 182,
+      "number": 153,
+      "color": "O",
+      "id": "40850",
+      "on": false,
+      "stopIDs": [
+          30166
+      ],
+      "station": {
+          "stop_id": 40850,
+          "stop_code": null,
+          "stop_name": "Harold Washington Library-State/Van Buren",
+          "stop_desc": "",
+          "stop_lat": 41.876862,
+          "stop_lon": -87.628196,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "O",
+          "route": "Org",
+          "train": "org",
+          "color": "#ff7700"
+      }
+  },
+  {
+      "index": 183,
+      "number": 8,
+      "color": "O",
+      "id": "40930",
+      "on": false,
+      "stopIDs": [
+          30182,
+          30181
+      ],
+      "station": {
+          "stop_id": 40930,
+          "stop_code": null,
+          "stop_name": "Midway",
+          "stop_desc": "",
+          "stop_lat": 41.78661,
+          "stop_lon": -87.737875,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "O",
+          "route": "Org",
+          "train": "org",
+          "color": "#ff7700"
+      }
+  },
+  {
+      "index": 184,
+      "number": 9,
+      "color": "O",
+      "id": "40960",
+      "on": false,
+      "stopIDs": [
+          30186,
+          30185
+      ],
+      "station": {
+          "stop_id": 40960,
+          "stop_code": null,
+          "stop_name": "Pulaski (Orange)",
+          "stop_desc": "",
+          "stop_lat": 41.799756,
+          "stop_lon": -87.724493,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "O",
+          "route": "Org",
+          "train": "org",
+          "color": "#ff7700"
+      }
+  },
+  {
+      "index": 185,
+      "number": 13,
+      "color": "O",
+      "id": "41060",
+      "on": false,
+      "stopIDs": [
+          30205,
+          30206
+      ],
+      "station": {
+          "stop_id": 41060,
+          "stop_code": null,
+          "stop_name": "Ashland (Orange)",
+          "stop_desc": "",
+          "stop_lat": 41.839234,
+          "stop_lon": -87.665317,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "O",
+          "route": "Org",
+          "train": "org",
+          "color": "#ff7700"
+      }
+  },
+  {
+      "index": 186,
+      "number": 14,
+      "color": "O",
+      "id": "41130",
+      "on": false,
+      "stopIDs": [
+          30215,
+          30216
+      ],
+      "station": {
+          "stop_id": 41130,
+          "stop_code": null,
+          "stop_name": "Halsted (Orange)",
+          "stop_desc": "",
+          "stop_lat": 41.84678,
+          "stop_lon": -87.648088,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "O",
+          "route": "Org",
+          "train": "org",
+          "color": "#ff7700"
+      }
+  },
+  {
+      "index": 187,
+      "number": 10,
+      "color": "O",
+      "id": "41150",
+      "on": false,
+      "stopIDs": [
+          30219,
+          30220
+      ],
+      "station": {
+          "stop_id": 41150,
+          "stop_code": null,
+          "stop_name": "Kedzie (Orange)",
+          "stop_desc": "",
+          "stop_lat": 41.804236,
+          "stop_lon": -87.704406,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "O",
+          "route": "Org",
+          "train": "org",
+          "color": "#ff7700"
+      }
+  },
+  {
+      "index": 188,
+      "number": 28,
+      "color": "O",
+      "id": "41400",
+      "on": false,
+      "stopIDs": [
+          30081,
+          30080
+      ],
+      "station": {
+          "stop_id": 41400,
+          "stop_code": null,
+          "stop_name": "Roosevelt",
+          "stop_desc": "",
+          "stop_lat": 41.8673785311,
+          "stop_lon": -87.6270314058,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "O",
+          "route": "Org",
+          "train": "org",
+          "color": "#ff7700"
+      }
+  },
+  {
+      "index": 189,
+      "number": 188,
+      "color": "O",
+      "id": "41700",
+      "on": false,
+      "stopIDs": [
+          30384
+      ],
+      "station": {
+          "stop_id": 41700,
+          "stop_code": null,
+          "stop_name": "Washington/Wabash",
+          "stop_desc": "",
+          "stop_lat": 41.88322,
+          "stop_lon": -87.626189,
+          "location_type": 1,
+          "parent_station": null,
+          "wheelchair_boarding": 1
+      },
+      "line": {
+          "name": "O",
+          "route": "Org",
+          "train": "org",
+          "color": "#ff7700"
+      }
+  }
 ]
